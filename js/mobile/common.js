@@ -805,7 +805,9 @@ var pullrefresh = {
 					return;
 				}
 			}
-			divobj.remove();
+			if (divobj != null){
+		    	divobj.remove();
+		    }
 			divobj = null;
 			status = false;
 			pos = {};
