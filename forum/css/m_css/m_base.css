@@ -198,3 +198,11 @@ nav a:active,nav a:hover,nav a:focus,nav a:visited{
 .avatar_img img, .avat img{
     border-radius: 50%;
 }
+/* 搜索页 */
+input.orange-submit{
+    margin: 5px 0 3px 0;
+    font-size: 12px;
+}
+.thread_tit{
+    color: rgb(254,112,60)!important;
+}
