@@ -169,7 +169,10 @@ ul.cl{
 .left_warp{
 	padding:0px;
 }
-
+div.title{
+	height: auto;
+	line-height: inherit;
+}
 
 .left_title {
     overflow: hidden;
@@ -516,11 +519,14 @@ margin-left:5px;
  *关注我们
  */
 
-.contact_us_title,.notice_title{
+.contact_us_title,.notice_title,div.frame-title{
 	padding:12px 15px;
 	background-color: #e5e5e5;
 	font-size: 16px;
 	font-weight: 600;
+}
+div.frame-title{
+	background:
 }
 .microblog{
 margin-bottom: 10px;
