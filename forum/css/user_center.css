@@ -58,6 +58,9 @@ span.act{
     border: 1px solid #ddd;
     margin-bottom: 30px;
 }
+.usercontent{
+    background-color: #fff;
+}
 .userinfo_bottom span{
     display: inline-block;
 }
