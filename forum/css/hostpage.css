@@ -1,5 +1,7 @@
  .title{
-padding-left: 0px;
+padding:0px;
+margin-bottom: 8px;
+font-size: 16px;
 }
 
 .div_posted{
@@ -25,9 +27,7 @@ padding-left: 0px;
 	margin: 0px 5px;
 }
 .title_1{
-	color:#f0ad4e;
-	padding-top: 4px;
-	margin-bottom: 10px;
+	font-weight: 400!important;
 }
 
 .vip{

@@ -1,11 +1,12 @@
 body{
 	background-color:rgb(239,239,239);
-	font-family: arial,"Microsoft Yahei","Hiragino Sans GB",sans-serif;
+	font-family: arial,"Microsoft Yahei","Hiragino Sans GB",sans-serif!important;
 }
 .menu-reply{
 	border-left: #CCCCCC solid 1px;
 	padding-left: 5px;
-	margin-left: 5px;}
+	margin-left: 5px;
+}
 /* 内容包裹层自定义 */
 .container_custom{
 	margin-bottom:  15px;	
@@ -45,8 +46,6 @@ a{
 
 .left{
 	background-color:#fff;
-	/* width:900px;
-	float:left; */
 	border: 1px solid rgb(212,212,213);
 	padding:20px;
 }
@@ -68,6 +67,7 @@ a{
 overflow: hidden;
 border-bottom : #ddd solid 1px;
 padding-bottom: 15px;
+font-size: 12px;
 }
 .hot_con ul{
 	margin: 0;
@@ -235,12 +235,17 @@ ul.cl{
 	color:rgb(254,112,60);
 	background-color: inherit;
 }
-
+/* 页脚动画 */
 .code{
 	position: fixed;
-	bottom: 140px;
-	left: 50%;
-	display: none;
+	bottom: 0;
+	right: 0;
+}
+.code img{
+display: none;
+}
+.wechat,.qqgroup{
+	cursor: pointer;
 }
 
 .left_subnav{
@@ -256,6 +261,7 @@ ul.cl{
 }
 .user_nub{
 	color:#999999;
+	margin-right: 25px;
 	}
 	.box_posted {
 		width: 100%;
@@ -452,7 +458,8 @@ i{
 }
 .fa-commenting,.fa-eye,.fa-share-alt,.fa-heart{
 	color:#ccc;
-	margin: 5px;
+	margin-left: 10px;
+	margin-right: 4px;
 }
 nav.navbar {
 	border-top: 5px solid rgb(254,112,60);
@@ -624,4 +631,12 @@ padding-right:10px;
 }
 .nav-tabs>li>a {
     border-radius: 0px;
+}
+
+/* DISCUZ 自定义 */
+div.mn{
+	overflow:inherit;
+}
+ul.dropdown-menu{
+	min-width: initial;
 }
