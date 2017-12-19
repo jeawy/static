@@ -1,0 +1,26 @@
+.orange-btn{
+    background-color: rgb(254, 112, 60);
+    color: #fff;
+    text-align: center;
+    padding: 6px 18px;
+    border: 0px;
+}
+.search-container{
+    margin-top: 70px;
+    padding-left:0px;
+}
+
+#scform_form12{
+    border: 1px solid rgb(212,212,213);
+}
+
+.search-img{
+    width: 160px;
+    height: 60px;
+}
+#scform{
+    margin-left: 19%;
+}
+.strong-my-search, .fa-my-search{
+    font-size: 18px;
+}
