@@ -2,7 +2,7 @@
  *用户信息展示-头部
  */
  .userinfo_top{
-     margin-top:90px; 
+     margin-top:60px; 
  }
  .userinfo_top img{
      width:140px;
@@ -35,18 +35,10 @@
 .userinfo_tab_nav{
     margin-top:30px; 
 }
-.userinfo_tab_nav>span{
-    background-color: #d4d4d4;
-    color:#fff;
-    font-size: 14px;
-    font-weight: 600;
-    padding:3px 6px;
-    text-align: center;
-    display: inline-block;
-    width:100px;
-    letter-spacing:2px; 
-    cursor: pointer;
+ul{
+    margin: 0px;
 }
+
 span.act{
     background-color: rgb(254,112,60);
 }
@@ -81,6 +73,8 @@ span.act{
 }
 .h3_custom{
     margin-top: 0px;
+    font-weight: 600;
+    margin-bottom:8px;
 }
 .top_dotted{
     border-top: dotted 1px #bbb;
@@ -105,4 +99,9 @@ span.act{
 }
 .statistics_num_list{
     margin-left: -11px;
+}
+span.management{
+    font-size: 14px;
+    color: #333;
+    margin-left: 10px;
 }

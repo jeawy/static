@@ -240,7 +240,8 @@ div.title{
     text-align: center;
     color: white;
     border-radius: 40px;
-    display: inline-block;
+	display: inline-block;
+	line-height:18px;
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, 
 .navbar-inverse .navbar-nav>.active>a:hover {
