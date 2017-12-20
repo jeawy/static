@@ -22,8 +22,7 @@ font-size: 16px;
 }
 .label {
     padding: .1em .5em 0em;
-	position: relative;
-	top:-5px;
+	position: relative; 
 	margin: 0px 5px;
 }
 .title_1{

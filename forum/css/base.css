@@ -232,7 +232,16 @@ div.title{
 .ruel_cl{
 	color:rgb(254,112,60);
 }
-
+.sub_num{
+	background-color:rgb(254,112,60);
+	min-width: 18px;
+    margin-left: 5px;
+    height: 18px;
+    text-align: center;
+    color: white;
+    border-radius: 40px;
+    display: inline-block;
+}
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, 
 .navbar-inverse .navbar-nav>.active>a:hover {
 	color:rgb(254,112,60);
