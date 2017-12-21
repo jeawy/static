@@ -170,7 +170,6 @@ ul.cl{
 	padding:0px;
 }
 div.title{
-	margin-top:2px;
 	height: auto;
 	line-height: inherit;
 }
@@ -448,7 +447,7 @@ i{
 	font-size: 14px;
 	font-weight:600; 
 }
-.panel-title a,.notice_title a{
+.panel-title a,.notice_title a.more{
 	color: #667ebd;
 	font-size: 12px;
 	font-weight: 400;
@@ -535,11 +534,7 @@ nav.navbar {
 margin-left:5px;
 }
 
-.header{/*XX*/
-	width:1200px;
-	margin:0px auto;
-	padding:0px;
-} 
+
 
 /* 
  *关注我们
@@ -547,13 +542,12 @@ margin-left:5px;
 
 .contact_us_title,.notice_title,div.frame-title{
 	padding:12px 15px;
-	background-color: #e5e5e5;
+	background: #e5e5e5!important;
 	font-size: 14px;
 	font-weight: 600;
+	margin: 0!important;
 }
-div.frame-title{
-	background:
-}
+
 .microblog{
 margin-bottom: 10px;
 display: inline-block;
@@ -612,7 +606,7 @@ padding-right:10px;
  */
  
 .notice_con img{
-	width: 100px;
+	width: 90px;
 	margin-right: 10px;
 }
 .Reservations{
@@ -641,11 +635,7 @@ padding-right:10px;
 .ntc{
 	margin-bottom: 10px;
 }
-.notice_title .more{
-	font-size: 15px;
-	font-weight: 300;
-	color: #888;
-}
+
 .notice_title .more .fa{
 	margin-left: 4px;
 }
