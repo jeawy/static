@@ -448,7 +448,7 @@ i{
 	font-size: 14px;
 	font-weight:600; 
 }
-.panel-title a{
+.panel-title a,.notice_title a{
 	color: #667ebd;
 	font-size: 12px;
 	font-weight: 400;
