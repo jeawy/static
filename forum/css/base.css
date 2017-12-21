@@ -23,7 +23,7 @@ nav .container{
 	padding: 0px 15px;
 }
 .container{
-	width: 1170px;
+	width: 1120px;
 }
 ul{
 	list-style:none;
@@ -58,8 +58,8 @@ a{
 
 
 .hot_img img{
-	width:60px;
-	height:60px;
+	width:52px;
+	height:52px;
 	border-radius:30px;
 }
 
@@ -170,6 +170,7 @@ ul.cl{
 	padding:0px;
 }
 div.title{
+	margin-top:2px;
 	height: auto;
 	line-height: inherit;
 }
@@ -230,10 +231,10 @@ div.title{
 	width:80px;
 	text-align:center;}
 .ruel_cl{
-	color:rgb(254,112,60);
+	color:rgb(234,80,20);
 }
 .sub_num{
-	background-color:rgb(254,112,60);
+	background-color:rgb(234,80,20);
 	min-width: 18px;
     margin-left: 5px;
     height: 18px;
@@ -245,7 +246,7 @@ div.title{
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, 
 .navbar-inverse .navbar-nav>.active>a:hover {
-	color:rgb(254,112,60);
+	color:rgb(234,80,20);
 	background-color: inherit;
 }
 /* 页脚动画 */
@@ -270,16 +271,16 @@ display: none;
 	display: inline;
 }
 .font_color{
-	color:rgb(254,112,60);
+	color:rgb(234,80,20);
 }
 .user_nub{
 	color:#999999;
-	margin-right: 25px;
+	margin-right: 2px;
 	}
 	.box_posted {
 		width: 100%;
 		color: #FFF;
-		background-color: rgb(254, 112, 60);
+		background-color: rgb(234,80,20);
 		height: 90px;
 		margin-top: 10px;
 		margin-bottom: 10px;
@@ -290,7 +291,7 @@ display: none;
 .text_posted{
 width:100%;
 color:#FFF;
-background-color:rgb(254,112,60);
+background-color:rgb(234,80,20);
 height:59px;
 margin-top:10px;
 margin-bottom:10px;
@@ -321,7 +322,8 @@ border-left:#ddd solid 1px;
 }
 .login_holder
 {
-	line-height: 50px;
+	padding: 10px 0px 10px 15px;
+	line-height: 30px;
 }
 
 .login_holder a
@@ -341,6 +343,9 @@ border-left:#ddd solid 1px;
 {
 	color:white;
 }
+ul.navbar-nav{
+	font-size: 16px;
+}
 .navbar-inverse .navbar-nav>li>a
  {
 	color: white;
@@ -350,11 +355,11 @@ border-left:#ddd solid 1px;
 
 .orange
 {
-	color:rgb(254,112,60);
+	color:rgb(234,80,20);
 }
 .orange-bg
 {
-	background-color: rgb(254,112,60);
+	background-color: rgb(234,80,20);
 }
 .nav_btn{
     position: relative;
@@ -413,7 +418,7 @@ font-size:12px;
 	margin:6px 0px 4px;
 	}
 .panel-heading{
-	border-bottom: rgb(254,112,60) solid 1px;
+	border-bottom: rgb(234,80,20) solid 1px;
 	}
 i{
 	margin-right:5px; 
@@ -427,8 +432,7 @@ i{
 .recommend_head{
 	padding: 0px 0px 15px;
 	margin: 0px;
-	color: #999;
-	border-bottom: rgb(254,112,60) solid 2px;
+	border-bottom: rgb(234,80,20) solid 2px;
 }
 .recommend_body{
 	padding: 15px 0px 0px;
@@ -439,6 +443,18 @@ i{
 }
 .recommend_body li{
 	margin-bottom: 14px;
+}
+.panel-title{
+	font-size: 14px;
+	font-weight:600; 
+}
+.panel-title a{
+	color: #667ebd;
+	font-size: 12px;
+	font-weight: 400;
+}
+.panel-title a:hover{
+	color: rgb(234,80,20);
 }
 .black_round{
 	margin:0px 7px ;
@@ -457,8 +473,8 @@ i{
 	margin:0px 7px ;
 	height: 16px;
 	padding: 0px;
-	border: 2px solid rgb(254,112,60);
-	color:rgb(254,112,60);
+	border: 2px solid rgb(234,80,20);
+	color:rgb(234,80,20);
 	border-radius: 50%;
 	display: inline-block;
 	width: 16px;
@@ -475,7 +491,7 @@ i{
 	margin-right: 4px;
 }
 nav.navbar {
-	border-top: 5px solid rgb(254,112,60);
+	border-top: 5px solid rgb(234,80,20);
 	border-bottom: none;
 }
 
@@ -487,7 +503,7 @@ nav.navbar {
 	border-radius:50%;
 }
 .my_btn{
-	background-color: rgb(254,112,60); 
+	background-color: rgb(234,80,20); 
 	border-color:  rgb(253, 99, 42);
 	border: 0px;
 	color: #fff;
@@ -532,7 +548,7 @@ margin-left:5px;
 .contact_us_title,.notice_title,div.frame-title{
 	padding:12px 15px;
 	background-color: #e5e5e5;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 600;
 }
 div.frame-title{
@@ -600,7 +616,7 @@ padding-right:10px;
 	margin-right: 10px;
 }
 .Reservations{
-	background: rgb(254,112,60);
+	background: rgb(234,80,20);
 	padding: 4px 12px;
 	color: #fff;
 	text-align: center;
@@ -609,7 +625,7 @@ padding-right:10px;
 	display: inline-block;
 }
 .Reservations:hover,.Reservations:visited{
-	background: rgb(254,112,60);
+	background: rgb(234,80,20);
 	color: #fff;
 	text-decoration: none;
 }
@@ -649,10 +665,17 @@ padding-right:10px;
     border-radius: 0px;
 }
 
+
+input[type=checkbox], input[type=radio]{
+	margin: 0 2px 1px 0;
+}
 /* DISCUZ 自定义 */
 div.mn{
 	overflow:inherit;
 }
 ul.dropdown-menu{
 	min-width: initial;
+}
+.bm_c{
+	padding:0 15px;
 }

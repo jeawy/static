@@ -5,14 +5,14 @@ font-size: 16px;
 }
 
 .div_posted{
-	background-color:rgb(254,112,60);
+	background-color:rgb(234,80,20);
 	margin-top:5px;
 	color:#fff;
 }
 
 .sign{
-	border:rgb(254,112,60) solid 1px;
-	color:rgb(254,112,60);
+	border:rgb(234,80,20) solid 1px;
+	color:rgb(234,80,20);
 }
 
 .div_posted a{
@@ -34,6 +34,7 @@ font-size: 16px;
 }
 .user{
 	padding-left: 0px;
+	color: #999;
 }
 .user li{
 	display: inline-block;
@@ -99,7 +100,7 @@ margin-top:10px;
 margin-bottom:10px;
 font-size:12px;
 line-height: 90px; 
-border:rgb(254,112,60) solid 2px;
+border:rgb(234,80,20) solid 2px;
 }
 table.sign_table{
 	margin:21px 0px 0px 170px;
@@ -107,7 +108,7 @@ table.sign_table{
 }
 
 .sign_msg{
-	color: rgb(254,112,60);
+	color: rgb(234,80,20);
 	font-size:18px;
 	letter-spacing: 6px;
 }
@@ -125,10 +126,11 @@ table.sign_table{
 	background-color:#fff;
 	border: 1px solid rgb(212,212,213);
 	padding:0px;
+	margin-bottom: 15px;
 }
 .my_label{
 	padding: .2em .6em;
-	background-color: rgb(254,112,60);
+	background-color: rgb(234,80,20);
 	font-size: 80%;
     font-weight: 700;
     line-height: 1;
@@ -157,7 +159,7 @@ textarea{
 	background-color: rgb(62,58,57);
 }
 .progress-bar-danger{
-	background-color: rgb(254,112,60);
+	background-color: rgb(234,80,20);
 }
 .my_table{
 	margin: 0px auto;
@@ -172,4 +174,106 @@ textarea{
 .reply-head{
 	margin-bottom: 30px;
 	padding-right:15px; 
+}
+
+/* discuz 详情 选择器自定义 */
+#return_mods{
+	color: rgb(234,80,20)!important;
+	font-size: 15px;
+}
+.copt .labeltxt{
+	color: rgb(234,80,20)!important;
+	font-weight: 400;
+	margin-right: 4px;
+	min-width: 56px;
+}
+label.labeltxt{
+	width: auto!important;
+}
+.dpbtn{
+	height: auto;
+	border-radius: 4px;
+	min-height: 25px;
+}
+h3.flb{
+	margin-top: 10px;
+}
+.tm_c div.o,.tm_c p.o{
+	background-color: #fff;
+}
+.m_c .o{
+	height: auto;
+	padding:0px;
+	border-top:none;
+}
+.pns .orange-btn{
+	padding: 2px 10px;
+	border-radius: 4px;
+}
+.t_l, .t_c, .t_r, .m_l, .m_r, .b_l, .b_c, .b_r{
+	background: #fff;
+}
+.flb{
+	padding: 0px;
+}
+td.m_c{
+	padding:8px 20px;
+	box-shadow: 0 2px 10px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+.m_c .c{
+	padding: 0px;
+}
+.px, .pt, .ps, select{
+	border-radius:4px; 
+}
+td input.px,td .pt,p .pt{
+	width: 100%;
+}
+.tpclg h4{
+	font-size:14px; 
+}
+.m_c .o{
+	background-color:#fff; 
+}
+.hasd .labeltxt{
+	font-weight: 600;
+}
+.tpclg textarea.pt{
+    width: 100%!important;
+}
+.tahfx select{
+	width: auto!important;
+}
+.c1 .dpbtn{
+	border-radius: 4px;
+}
+.flb em{
+	color: rgb(234,80,20)!important;
+	font-size: 15px;
+}
+#fctrl_mods{
+	border-bottom: 1px solid #ddd;
+	height:30px;
+}
+button.pn{
+	padding: 2px 10px;
+    border-radius: 4px;
+	margin-left: 10px;
+	border: 0px;
+	background: rgb(234,80,20)!important;
+    color: #fff;
+	text-align: center;
+	font-weight: 400;
+}
+.pn strong,.orange-btn strong{
+	font-weight: 400;
+}
+ul.tpcl{
+	border-top: 0px;
+}
+.altw .alert_right,.altw .alert_error{
+	background-position:8px 2px;
+}
+#modsubmit{
+	margin-left: 15px;
 }

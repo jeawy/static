@@ -18,7 +18,7 @@ section.container{
 }
 
 .Posted_btn{
-    background-color: rgb(254,112,60);
+    background-color: rgb(234,80,20);
     outline: none;
     border: 1px solid rgb(255, 101, 45);
     padding: 4px 16px;
@@ -43,7 +43,7 @@ section.container{
     margin-right: 1px;
 }
 li.a span{
-    background-color: rgb(254,112,60);
+    background-color: rgb(234,80,20);
     color: #fff;
 }
 .details_head{

@@ -8,10 +8,10 @@
     position: relative;
 }
 .active-orange:link{
-    color:rgb(254, 112, 60);
+    color:rgb(234,80,20);
 }
 .orange {
-    color:rgb(254, 112, 60);  
+    color:rgb(234,80,20);  
 }
 .active-grye:link{
     color: #888;
@@ -22,7 +22,7 @@ ul{
     list-style-type: none;
 }
 .orange-btn{
-    background-color: rgb(254, 112, 60);
+    background-color: rgb(234,80,20);
     color: #fff;
     text-align: center;
     padding: 6px 18px;
@@ -32,7 +32,7 @@ ul{
  * 页头
  */
 header{
-    border-top: 4px solid rgb(254, 112, 60);
+    border-top: 4px solid rgb(234,80,20);
     background-color: rgb(64, 64, 64);
     color:#fefefe;
     font-size: 18px;
@@ -80,7 +80,7 @@ nav{
     bottom:0;
     width: 100%;
     font-size: 16px;
-    background-color: rgb(254, 112, 60);
+    background-color: rgb(234,80,20);
     color: #fff;
     padding:6px 0;
     z-index: 10;
@@ -186,7 +186,7 @@ nav a:active,nav a:hover,nav a:focus,nav a:visited{
     margin: 0px;
 }
 .my_btn{
-	background-color: rgb(254,112,60); 
+	background-color: rgb(234,80,20); 
 	border-color:  rgb(253, 99, 42);
 	border: 0px;
 	color: #fff;
@@ -204,5 +204,5 @@ input.orange-submit{
     font-size: 12px;
 }
 .thread_tit{
-    color: rgb(254,112,60)!important;
+    color: rgb(234,80,20)!important;
 }

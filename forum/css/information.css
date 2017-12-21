@@ -6,8 +6,8 @@ section.container{
  */
 
 li.a{
-    color: rgb(254,112,60);
-    border-bottom: 1px solid rgb(254,112,60);
+    color: rgb(234,80,20);
+    border-bottom: 1px solid rgb(234,80,20);
     font-weight: 600;
 }
 .leftsidebar{
@@ -15,7 +15,7 @@ li.a{
 }
 
 .leftsidebar_title{
-    background-color: rgb(254,112,60);
+    background-color: rgb(234,80,20);
     color: #fff;
     margin: 0px;
     padding: 10px 15px;
@@ -53,13 +53,13 @@ li.a{
      border-right: 1px solid #333;
  }
  .rightsidebar_act{
-    color: rgb(254,112,60);
+    color: rgb(234,80,20);
     font-weight: 600;
 }
 .file{
     margin-left: 15px;
     padding: 2px 8px;
-    background-color: rgb(254,112,60);
+    background-color: rgb(234,80,20);
     color: #fff;
     outline: none;
     border: 1px solid rgb(253, 97, 40);
@@ -73,12 +73,12 @@ div.friends_details{
 }
 /* 消息提交按钮（discuz默认ID）*/
 button#pmsubmit_btn{
-    background-color: rgb(254,112,60);
+    background-color: rgb(234,80,20);
     border: 1px solid rgb(253, 97, 40);
     padding: 2px 8px;
     height: auto;
 }
 /* 选择好友（discuz默认ID） */
 #showSelectBox{
-    color: rgb(254,112,60);
+    color: rgb(234,80,20);
 }
