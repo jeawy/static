@@ -7,6 +7,10 @@ body{
 	padding-left: 5px;
 	margin-left: 5px;
 }
+
+a:hover{
+	color: rgb(234,80,20);
+}
 /* 内容包裹层自定义 */
 .container_custom{
 	margin-bottom:  15px;	
@@ -34,12 +38,10 @@ a:hover{
 a{
 	color: inherit
 }
-.wrap{/*xx*/
-	width:1200px;
+.wrap{
 	margin:60px auto 10px;
 	overflow:hidden;
 }
-
 .main{
 	margin-top:15px;
 }
@@ -116,8 +118,7 @@ padding-right:0px;
 }
 .logo{
 	height:auto;
-	width:100px;
-	margin-top:6px;
+	margin-top:4px;
 }
 .i_block{
 	display: inline-block;
@@ -177,7 +178,8 @@ div.title{
 .left_title {
     overflow: hidden;
     border-bottom: #ddd solid 1px;
-    padding: 15px;
+	padding-bottom: 15px;
+	margin: 15px 15px 0;
 }
 
 .reply{
@@ -266,10 +268,14 @@ display: none;
 	margin-top: 15px;
 	padding: 0 15px 15px;
 }
+.xi2:link{
+ color: #333;
+}
+
 .left_subnav li{
 	display: inline;
 }
-.font_color{
+.font_color,.left_subnav .pull-right a:hover,.left_subnav .pull-right a:hover{
 	color:rgb(234,80,20);
 }
 .user_nub{
@@ -304,7 +310,7 @@ height:60px;
 margin-top:10px;
 padding: 4px 0;
 background-color:#fff;
-border: solid 1px #ddd;
+border: solid 1px #ccc;
 }
 .box_sign_left{
 width:50%;
@@ -321,15 +327,13 @@ border-left:#ddd solid 1px;
 }
 .login_holder
 {
-	padding: 10px 0px 10px 15px;
-	line-height: 30px;
+	padding: 16px 0px 16px 15px;
 }
 
 .login_holder a
 {
-	color: #d6d6d6;
-	padding-top: 2px;
-	padding-bottom: 2px;
+	color: #ddd;
+	line-height: 1;
 }
 
 .login_holder a:hover
@@ -425,11 +429,11 @@ i{
 .recommend{
 	padding: 15px;
 	margin: 0px 0px 10px;
-	border: rgb(225,225,226) solid 1px;
+	border: #ccc solid 1px;
 	background-color: #fff;
 }
 .recommend_head{
-	padding: 0px 0px 15px;
+	padding: 0px 0px 10px;
 	margin: 0px;
 	border-bottom: rgb(234,80,20) solid 2px;
 }
@@ -452,11 +456,11 @@ i{
 	font-size: 12px;
 	font-weight: 400;
 }
-.panel-title a:hover{
+.panel-title a:hover,.notice_title a.more:hover{
 	color: rgb(234,80,20);
 }
 .black_round{
-	margin:0px 7px ;
+	margin-right:7px;
 	height: 16px;
 	padding: 0px;
 	border: 2px solid #aaa;
@@ -469,7 +473,7 @@ i{
 	color: #aaa;
 }
 .orange_round{
-	margin:0px 7px ;
+	margin-right:7px;
 	height: 16px;
 	padding: 0px;
 	border: 2px solid rgb(234,80,20);
@@ -541,7 +545,7 @@ margin-left:5px;
  */
 
 .contact_us_title,.notice_title,div.frame-title{
-	padding:12px 15px;
+	padding:10px 15px;
 	background: #e5e5e5!important;
 	font-size: 14px;
 	font-weight: 600;
@@ -568,7 +572,7 @@ padding-right:10px;
 }
 
 .contact_us,.ntc{
-	border: #ddd solid 1px
+	border: #ccc solid 1px
 }
 .contact_us h4{
 	margin: 0px;
