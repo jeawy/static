@@ -32,4 +32,12 @@ jQuery(document).ready(function () {
     jQuery(".qqgroup").mouseleave(function () {
         jQuery('.code_qq').slideToggle();
     });
+
+    /* 官方二维码 */
+    jQuery('.contact_weixin').click(function () {
+        jQuery('.qr_code_wrap').slideToggle();
+    });
+    jQuery('#close').click(function () {
+        jQuery('.qr_code_wrap').slideUp();
+    });
 });

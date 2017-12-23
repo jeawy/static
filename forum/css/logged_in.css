@@ -17,11 +17,11 @@
     display: none;
     background-color: rgb(62, 58, 57);
     position: absolute;
-    width: 166px;
-    transform: translateX(-40%);
-    padding: 10px 15px;
+    transform: translateX(-33%);
+    padding: 6px 12px;
     margin-top: 18px;
     font-size: 14px;
+    min-width: 90px;
 }
 
 #user_login_nav ul {
@@ -35,9 +35,16 @@
 }
 
 #user_login_nav ul>li {
-    display: inline-block;
-    padding: 0 6px;
-    margin: 4px 0;
+    display: block;
+    padding: 8px;
+    border-bottom: 1px solid rgba(204, 204, 204,.5);
+}
+#user_login_nav>ul>li>img{
+    margin-right: 6px;
+    width: 16px;
+    height: auto;
+    margin-bottom: 2px;
+    border-radius: 0px;
 }
 
 #user_login_nav::before {
@@ -54,9 +61,8 @@
     width: 12px;
 }
 
-.vertical_line {
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
+li.bd-none{
+    border-bottom:0px!important;
 }
 
 .logged_in img {
