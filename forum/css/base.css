@@ -3,7 +3,7 @@ body{
 	font-family: arial,"Microsoft Yahei","Hiragino Sans GB",sans-serif!important;
 }
 .menu-reply{
-	border-left: #CCCCCC solid 1px;
+	border-left: #ddd solid 1px;
 	padding-left: 5px;
 	margin-left: 5px;
 }
@@ -48,10 +48,15 @@ a{
 
 .left{
 	background-color:#fff;
-	border: 1px solid rgb(212,212,213);
-	padding:20px;
+	border: 1px solid #ddd;
+	padding: 0 0 15px;
 }
-
+.hot-posted{
+	padding: 10px 15px;
+	background-color: #e5e5e5;
+	font-weight: 700;
+	font-size: 15px;
+}
 .hot{
 	margin:15px 0px;
 	overflow:hidden;
@@ -160,10 +165,13 @@ ul.cl{
     width: 100px;
     height: 100px;
     border-radius: 8px;
-    background-color: rgb(181, 181, 181);
+	background-color: rgb(181, 181, 181);
+	text-align: center;
+	padding: 12px 10px 8px;
 }
 .title_img img {
-    width: 100%;
+	height: 100%;
+	max-width: 100%;
 }
 
 	
@@ -184,7 +192,7 @@ div.title{
 }
 
 .reply{
-	border-left:#CCCCCC solid 1px;
+	border-left:#ddd solid 1px;
 	padding-left:5px;
 }
 .user_con{
@@ -315,7 +323,7 @@ height:60px;
 margin-top:10px;
 padding: 4px 0;
 background-color:#fff;
-border: solid 1px #ccc;
+border: solid 1px #ddd;
 }
 .box_sign_left{
 width:50%;
@@ -381,7 +389,7 @@ ul.navbar-nav{
 	padding: 6px 10px 4px;
     font-size: 14px;
     line-height: 1.2;
-	border: 1px solid #CCC;
+	border: 1px solid #ddd;
 	border-radius:4px;
 }
 .all_caret{
@@ -399,17 +407,9 @@ form.input-group .input-group-btn button{
 	font-size: 14px;
 	color: #666;
 }
-/* .glyphicon {
-    position: relative;
-    top: 2px;
-    display: inline-block;
-    font-family: 'Glyphicons Halflings';
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-} */
+#scbar_form>input,#scbar_form .btn-default{
+border-color: #ddd;
+}
 .navbar-inverse {
     background-color: rgb(62,58,57);
 }
@@ -420,7 +420,7 @@ text-align:left;
 font-size:12px;
 }
 .plane{
-	border-bottom:#CCCCCC solid 1px;
+	border-bottom:#ddd solid 1px;
 	}
 .sign_ul li{
 	margin:6px 0px 4px;
@@ -432,19 +432,18 @@ i{
 	margin-right:5px; 
 }
 .recommend{
-	padding: 15px;
 	margin: 0px 0px 10px;
-	border: #ccc solid 1px;
-	background-color: #fff;
+	border: #ddd solid 1px;
 }
 .recommend_head{
-	padding: 0px 0px 10px;
+	padding:  10px 15px;
 	margin: 0px;
-	border-bottom: rgb(234,80,20) solid 2px;
+	background: #e5e5e5;
 }
 .recommend_body{
-	padding: 15px 0px 0px;
+	padding: 10px 15px;
 	margin: 0px;
+	background-color: #fff;
 }
 .recommend_body ul{
 	padding-left:0px;
@@ -453,7 +452,7 @@ i{
 	margin-bottom: 14px;
 }
 .panel-title{
-	font-size: 14px;
+	font-size: 15px;
 	font-weight:600; 
 }
 .panel-title a,.notice_title a.more{
@@ -494,7 +493,7 @@ i{
 	margin-left: 15px;
 }
 .fa-commenting,.fa-eye,.fa-share-alt,.fa-heart{
-	color:#ccc;
+	color:#ddd;
 	margin-left: 10px;
 	margin-right: 4px;
 }
@@ -551,7 +550,7 @@ margin-left:5px;
 .contact_us_title,.notice_title,div.frame-title{
 	padding:10px 15px;
 	background: #e5e5e5!important;
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: 600;
 	margin: 0!important;
 }
@@ -579,7 +578,7 @@ margin-left:5px;
 	width: 160px;
 	height: auto;
 }
-/* .contact_us_con, */.notice_con{
+.notice_con{
 	padding: 15px;
 	background-color: #fff;
 }
@@ -588,7 +587,8 @@ margin-left:5px;
 	background-color: #fff;
 }
 .contact_us,.ntc{
-	border: #ccc solid 1px
+	border: #ddd solid 1px;
+	margin-top: 10px;
 }
 .contact_us h4{
 	margin: 0px;
@@ -637,9 +637,7 @@ margin-left:5px;
 .notice_text div{
 	margin-bottom: 6px
 }
-.ntc{
-	margin-bottom: 10px;
-}
+
 
 .notice_title .more .fa{
 	margin-left: 4px;
@@ -699,16 +697,73 @@ ul.dropdown-menu{
 	margin: 12px 0px;
 }
 span.menu-icon{
-    border-radius: 2px;
+    border-radius: 4px;
     background-color: rgb(201, 201, 202);
 	width: 20px!important;
 	height: 20px!important;
     padding: 2px;
-	margin-right: 2px;	
 	display: inline-block;
 	text-align: center;
 }
 .menu-icon>img{
 	height: 16px;
 	max-width: 16px;
+}
+/* 发帖子 */
+span#subjectchk{
+	color: #888;
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin-right: 6px;
+	margin-top: 13px;
+	font-size: 12px
+}
+.z{
+	position: relative;
+}
+.z>span>.form-control{
+	height: 38px;
+	padding-right: 110px;
+	border-radius: 0px;
+	min-width: 460px;
+}
+a#typeid_ctrl{
+	border: none;
+}
+a#typeid_ctrl:focus{
+	outline: none;
+}
+#e_body{
+	border-color: #ddd;
+}
+.hold_btn{
+	background-color: rgb(201,201,201);
+    border: 0px;
+    color: #fff;
+	text-align: center;
+	margin-left: 4px;
+}
+
+.ftid{
+	height: 38px;
+	padding: 8px 12px 4px;
+	min-width: 100px;
+	border: 1px solid #ddd;
+	text-align: left;
+}
+.ftid a{
+	padding: 0 20px 0 0;
+}
+#append_parent div#typeid_ctrl_menu{
+	min-width: 100px;
+	width: 126px!important;
+    left: 131px!important;
+    top: 159px!important;
+}
+li.pm2 a.xi2:link{
+	padding: 10px;
+	border-radius: 4px!important;
+	color: #fff;
+	background: rgb(234,80,20);
 }
