@@ -311,12 +311,9 @@ margin-top:10px;
 margin-bottom:10px;
 font-size:18px;
 line-height:60px; 
-letter-spacing:2px; 
+letter-spacing:1px; 
 }	
-/* .text_posted i{
- font-size: 20px;
- margin-right: 4px;
-} */
+
 .box_sign{
 width:100%;
 height:60px;
@@ -493,7 +490,7 @@ i{
 	margin-left: 15px;
 }
 .fa-commenting,.fa-eye,.fa-share-alt,.fa-heart{
-	color:#ddd;
+	color:#9c9c9c;
 	margin-left: 10px;
 	margin-right: 4px;
 }
@@ -585,6 +582,8 @@ margin-left:5px;
 .contact_us_con{
 	padding: 0 15px;
 	background-color: #fff;
+	color: #6c6c6c;
+	font-size: 15px;
 }
 .contact_us,.ntc{
 	border: #ddd solid 1px;
@@ -601,7 +600,7 @@ margin-left:5px;
 }
 .weibo,.weixin{
 	font-size: 15px;
-	color: #888;
+	color: #6c6c6c;
 	font-weight: 600;
 }
 
@@ -633,12 +632,11 @@ margin-left:5px;
 }
 .notice_text{
 	margin-top: 10px;
+	color:#6c6c6c;
 }
 .notice_text div{
 	margin-bottom: 6px
 }
-
-
 .notice_title .more .fa{
 	margin-left: 4px;
 }
@@ -667,6 +665,16 @@ input[type=checkbox], input[type=radio]{
 	margin: 0 2px 1px 0;
 }
 /* DISCUZ 自定义 */
+.pbl a{
+	color: #6c6c6c;
+}
+.pbls a{
+	color: #fff;
+	background: rgb(234,80,20);
+}
+.pbls a:focus, .pbls a:hover{
+	text-decoration: none;
+}
 div.mn{
 	overflow:inherit;
 }
@@ -676,11 +684,15 @@ ul.dropdown-menu{
 .bm_c{
 	padding:0 15px;
 }
-.text_posted .fa-pencil-square-o{vertical-align:middle;}
+.text_posted .fa-pencil-square-o{
+	vertical-align:middle;
+font-size: 140%;
+margin-right: 6px;
+}
 .qr_code_wrap{
 	background-color: #fff;
 	padding: 15px;
-	color: #888;
+	color: #6c6c6c;
 	max-width: 250px;
 	box-shadow:0 2px 10px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
 	position: fixed;
@@ -704,6 +716,7 @@ span.menu-icon{
     padding: 2px;
 	display: inline-block;
 	text-align: center;
+	vertical-align: bottom;
 }
 .menu-icon>img{
 	height: 16px;
@@ -711,19 +724,19 @@ span.menu-icon{
 }
 /* 发帖子 */
 span#subjectchk{
-	color: #888;
+	color: #6c6c6c;
 	position: absolute;
 	right: 0;
 	top: 0;
-	margin-right: 6px;
-	margin-top: 13px;
+	margin-right: 8px;
+	margin-top: 10px;
 	font-size: 12px
 }
 .z{
 	position: relative;
 }
 .z>span>.form-control{
-	height: 38px;
+	height: 36px;
 	padding-right: 110px;
 	border-radius: 0px;
 	min-width: 460px;
@@ -746,7 +759,7 @@ a#typeid_ctrl:focus{
 }
 
 .ftid{
-	height: 38px;
+	height: 36px;
 	padding: 8px 12px 4px;
 	min-width: 100px;
 	border: 1px solid #ddd;
@@ -758,7 +771,7 @@ a#typeid_ctrl:focus{
 #append_parent div#typeid_ctrl_menu{
 	min-width: 100px;
 	width: 126px!important;
-    left: 131px!important;
+     left: 408px!important;
     top: 159px!important;
 }
 li.pm2 a.xi2:link{
@@ -766,4 +779,17 @@ li.pm2 a.xi2:link{
 	border-radius: 4px!important;
 	color: #fff;
 	background: rgb(234,80,20);
+}
+
+
+/* 弹出信息 */
+
+.avt img{
+	border-radius: 50%;
+	outline: none;
+	width: 52px;
+height: 52px;
+}
+div.card{
+	border: none;
 }

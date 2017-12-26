@@ -2,34 +2,49 @@
     color:#999;
 }
 section.container{
-    margin-top: 65px;
+    margin-top: 15px;
     margin-bottom: 15px;
 }
 
-.fa{
-    font-size: 16px;
-}
 .title_my_posts{
-    font-size: 16px;
+    font-size: 15px;
     font-weight:600;
     margin: 15px 0;
     padding: 10px 15px;
     background-color: #fff;
+   width: 88%;
+   float: left;
+}
+.o-flow{
+    overflow: hidden;
+}
+.posted_btn{
+    background: rgb(234,80,20);
+    color: #fff;
+    outline: none;
+    border: none;
+    text-align: center;
+    padding: 11px 25px 9px;
+    font-size: 15px;
+    font-family: arial,"Microsoft Yahei","Hiragino Sans GB",sans-serif!important;
+    max-width: 120px;
+    display:block;
+    margin-top: 15px;
+    float: right;
+}
+.posted_btn:hover,.posted_btn:focus,.posted_btn:active{
+    color: #fcfcfc;
+    text-decoration: none;
+}
+.posted_btn:hover{
+    box-shadow:0 2px 6px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+
+}
+.fa-pencil-square-o{
+    vertical-align: middle;
+    font-size: 120%;
 }
 
-.Posted_btn{
-    background-color: rgb(234,80,20);
-    outline: none;
-    border: 1px solid rgb(255, 101, 45);
-    padding: 4px 16px;
-    font-size: 16px;
-    color: #fff;
-    letter-spacing:2px;
-    text-align: center;
-}
-.my_posts_tab{
-    margin-top: 15px;
-}
 .my_posts_tab span{
     background-color: #d4d4d4;
     font-weight: 600;
@@ -50,9 +65,6 @@ li.a span{
     background-color: rgb(249, 249, 249);
     padding: 10px 20px;
     color: #666;
-}
-.details_body{
-    background-color: #fff; 
 }
 
 .details_head ul{
@@ -75,3 +87,4 @@ ul li.item-title{
 .item-writer{
     margin-right: 20px;
 }
+

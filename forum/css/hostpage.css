@@ -36,7 +36,7 @@
 	}
 	.user{
 		padding-left: 0px;
-		color: #999;
+		color: #777;
 	}
 	.user li{
 		display: inline-block;
@@ -116,7 +116,7 @@
 	}
 	.moderator{
 		padding:0px 10px 10px 0px;
-		color: #888;
+		color: #6c6c6c;
 	}
 	.moderator img{
 		width: 40px;
@@ -303,12 +303,17 @@
 		outline: none;
 		border: none;
 		text-align: center;
-		padding: 8px 26px 7px;
-		letter-spacing:2px;
+		padding: 8px 24px 7px;
+		letter-spacing:1px;
 		position: absolute;
 		right: 0px;
 		bottom: 15px;
-		margin-right: 5px;
+	}
+	.posted-btn .fa{
+		margin-right: 6px;
+		font-size: 120%;
+		vertical-align: middle;
+
 	}
 	.posted-btn:hover,.posted-btn:focus,.posted-btn:active{
 		color: #fcfcfc;
