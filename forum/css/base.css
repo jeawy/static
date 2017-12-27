@@ -799,7 +799,8 @@ div.card{
 .bbs-moderator{
     background: #fff;
 	border: 1px solid #ddd;
-	padding: 30px 15px 20px;
+	padding: 30px 15px 30px;
+	text-align: center;
 }
 .bbs-moderator .tns{
 	color:#6c6c6c;
@@ -820,22 +821,29 @@ div.uname{
 .font-grey{
 	color: #6c6c6c;
 }
-.send_msg:link{
+.to_home,.send_msg{
+	display: inline-block;
+	margin-top: 10px;
+	font-size: 12px;
 	padding: 5px 18px 4px;
+}
+
+.send_msg:link{
 	background: rgb(201, 211, 211);
 	border-radius: 4px;
-	margin-top: 10px;
+	min-width: 86px;
+	text-align: center;
 }
 .send_msg:hover,.to_home:hover{
 	color: inherit;
 }
 .to_home:link{
-	padding: 5px 18px 4px;
 	background: rgb(234,80,20);
 	border-radius: 4px;
 	color: #fff;
 	margin-right: 6px;
-	margin-top: 10px;
+	min-width: 86px;
+	text-align: center;
 }
 
 .font_color_gray{
