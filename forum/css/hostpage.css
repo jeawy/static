@@ -303,18 +303,17 @@
 		outline: none;
 		border: none;
 		text-align: center;
-		padding: 8px 24px 7px;
+		padding: 7px 24px 4px;
 		letter-spacing:1px;
 		position: absolute;
 		right: 0px;
 		bottom: 15px;
 	}
-	.posted-btn .fa{
-		margin-right: 6px;
-		font-size: 120%;
-		vertical-align: middle;
-
+	.posted-btn .pencil{
+		width: 22px;
+    margin: 0 8px 4px 0;
 	}
+
 	.posted-btn:hover,.posted-btn:focus,.posted-btn:active{
 		color: #fcfcfc;
 		text-decoration: none;

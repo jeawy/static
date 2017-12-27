@@ -24,13 +24,17 @@ section.container{
     outline: none;
     border: none;
     text-align: center;
-    padding: 11px 25px 9px;
+    padding: 10px 24px 7px;
     font-size: 15px;
     font-family: arial,"Microsoft Yahei","Hiragino Sans GB",sans-serif!important;
     max-width: 120px;
     display:block;
     margin-top: 15px;
     float: right;
+}
+.posted_btn .pencil{
+    width: 22px;
+    margin: 0 8px 2px 0;
 }
 .posted_btn:hover,.posted_btn:focus,.posted_btn:active{
     color: #fcfcfc;
@@ -40,10 +44,7 @@ section.container{
     box-shadow:0 2px 6px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
 
 }
-.fa-pencil-square-o{
-    vertical-align: middle;
-    font-size: 120%;
-}
+
 
 .my_posts_tab span{
     background-color: #d4d4d4;

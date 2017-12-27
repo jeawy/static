@@ -277,10 +277,10 @@ display: none;
 	margin-top: 15px;
 	padding: 0 15px 15px;
 }
-.xi2:link{
+/* .xi2:link{
  color: #333;
 }
-
+ */
 .left_subnav li{
 	display: inline;
 }
@@ -311,7 +311,7 @@ margin-top:10px;
 margin-bottom:10px;
 font-size:18px;
 line-height:60px; 
-letter-spacing:1px; 
+letter-spacing:2px; 
 }	
 
 .box_sign{
@@ -684,11 +684,7 @@ ul.dropdown-menu{
 .bm_c{
 	padding:0 15px;
 }
-.text_posted .fa-pencil-square-o{
-	vertical-align:middle;
-font-size: 140%;
-margin-right: 6px;
-}
+
 .qr_code_wrap{
 	background-color: #fff;
 	padding: 15px;
@@ -769,9 +765,9 @@ a#typeid_ctrl:focus{
 	padding: 0 20px 0 0;
 }
 #append_parent div#typeid_ctrl_menu{
-	min-width: 100px;
-	width: 126px!important;
-     left: 408px!important;
+	min-width: 110px;
+	/* width: 126px!important;
+     left: 408px!important; */
     top: 159px!important;
 }
 li.pm2 a.xi2:link{
@@ -792,4 +788,27 @@ height: 52px;
 }
 div.card{
 	border: none;
+}
+
+
+.pencil{
+	width: 24px;
+	margin:0 8px 4px 0; 
+}
+/* 版主块 */
+.bbs-moderator{
+    background: #fff;
+	border: 1px solid #ddd;
+	padding: 15px;
+}
+.bbs-moderator .tns{
+	color:#6c6c6c;
+}
+.vip{
+	width: 14px;
+	vertical-align:baseline;
+}
+
+.tb a{
+	background-color: #d4d4d4;
 }

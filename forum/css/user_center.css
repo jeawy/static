@@ -4,8 +4,7 @@
  .userinfo_top{
      margin-top:60px; 
  }
- .userinfo_top img{
-     width:140px;
+ .userinfo_top .pull-left img{
      width:140px;
      border-radius: 50%;
      padding: 5px;
@@ -74,7 +73,8 @@ span.act{
 .h3_custom{
     margin-top: 0px;
     font-weight: 600;
-    margin-bottom:8px;
+    padding-top: 10px;
+    margin-bottom:0px;
 }
 .top_dotted{
     border-top: dotted 1px #bbb;
@@ -105,3 +105,4 @@ span.management{
     color: #333;
     margin-left: 10px;
 }
+
