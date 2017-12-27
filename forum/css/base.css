@@ -837,3 +837,24 @@ div.uname{
 	margin-right: 6px;
 	margin-top: 10px;
 }
+
+.font_color_gray{
+	color:#6c6c6c;
+}
+.font_color_gray a{
+	font-size: 12px;
+}
+.gray_round {
+margin-right: 7px;
+height: 4px;
+padding: 0px;
+border: 1px solid #6c6c6c;
+color: #6c6c6c;
+border-radius: 50%;
+display: inline-block;
+width: 4px;
+font-size: 12px;
+text-align: center;
+background-color: #e5e5e5;
+line-height: 14px;
+}
