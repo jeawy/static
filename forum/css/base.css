@@ -506,11 +506,15 @@ nav.navbar {
 	height: 60px;
 	border-radius:50%;
 }
-.my_btn{
+.my_btn,.o-btn{
 	background-color: rgb(234,80,20);
 	border: 0px;
 	color: #fff;
 	text-align: center;
+}
+.o-btn{
+	padding: 6px 18px;
+	border-radius: 0px;
 }
 .btn-add-friend{
 	padding: 0px 6px;
@@ -720,7 +724,7 @@ span.menu-icon{
 }
 /* 发帖子 */
 span#subjectchk{
-	color: #6c6c6c;
+	color: #afafaf;
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -735,7 +739,7 @@ span#subjectchk{
 	height: 36px;
 	padding-right: 110px;
 	border-radius: 0px;
-	min-width: 460px;
+	min-width: 486px;
 }
 a#typeid_ctrl{
 	border: none;
@@ -757,18 +761,21 @@ a#typeid_ctrl:focus{
 .ftid{
 	height: 36px;
 	padding: 8px 12px 4px;
-	min-width: 100px;
+	min-width: 118px;
 	border: 1px solid #ddd;
 	text-align: left;
 }
+.sex{
+	min-width: 100px!important;
+}
+
 .ftid a{
 	padding: 0 20px 0 0;
 }
 #append_parent div#typeid_ctrl_menu{
-	min-width: 110px;
-	/* width: 126px!important;
-     left: 408px!important; */
+	min-width: 118px;
     top: 159px!important;
+    margin-left: -13px;
 }
 li.pm2 a.xi2:link{
 	padding: 10px;
@@ -805,10 +812,7 @@ div.card{
 .bbs-moderator .tns{
 	color:#6c6c6c;
 }
-.vip{
-	width: 14px;
-	vertical-align:baseline;
-}
+
 
 .tb a{
 	background-color: #d4d4d4;
@@ -820,6 +824,10 @@ div.uname{
 }
 .font-grey{
 	color: #6c6c6c;
+}
+.font-grey-1{
+	color: #afafaf;
+	font-weight: 400;
 }
 .to_home,.send_msg{
 	display: inline-block;
@@ -834,16 +842,19 @@ div.uname{
 	min-width: 86px;
 	text-align: center;
 }
-.send_msg:hover,.to_home:hover{
+.send_msg:hover{
 	color: inherit;
 }
-.to_home:link{
+.to_home{
 	background: rgb(234,80,20);
 	border-radius: 4px;
 	color: #fff;
 	margin-right: 6px;
 	min-width: 86px;
 	text-align: center;
+}
+.to_home:hover{
+	color:#fff;
 }
 
 .font_color_gray{
@@ -867,4 +878,29 @@ font-size: 12px;
 text-align: center;
 background-color: #e5e5e5;
 line-height: 14px;
+}
+
+.pt-6{
+	padding-top: 6px;
+}
+.activitycity{
+	min-width: 159px;
+}
+.must{
+	background: rgb(247, 247, 247);
+	padding: 20px 8px;
+	margin: 20px 0 30px;
+}
+.must>dd,.must>dd>ul,.must label{
+	margin: 0!important;
+}
+.must li{
+	width: 120px;
+}
+.must>dd{
+	min-width: 600px;
+	padding-left: 15px;
+}
+.must>dt{
+	margin-top: 2px;
 }
