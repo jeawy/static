@@ -847,7 +847,9 @@ div.uname{
 }
 
 .font_color_gray{
-	color:#6c6c6c;
+	color: #6c6c6c;
+    overflow: hidden;
+    height: 18px;
 }
 .font_color_gray a{
 	font-size: 12px;
