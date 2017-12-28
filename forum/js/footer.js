@@ -17,19 +17,19 @@ jQuery(document).ready(function () {
     });
 
     /* 二维码hover动画 */
-    jQuery('.wechat').mouseenter(function () {
+    jQuery('.w-q').mouseenter(function () {
         jQuery('.code_weixin').slideToggle();
     });
-    jQuery('.wechat').mouseleave(function () {
+    jQuery('.w-q').mouseleave(function () {
         jQuery('.code_weixin').slideToggle();
     });
 
 
 
-    jQuery(".qqgroup").mouseenter(function () {
+    jQuery(".q-q").mouseenter(function () {
         jQuery('.code_qq').slideToggle();
     });
-    jQuery(".qqgroup").mouseleave(function () {
+    jQuery(".q-q").mouseleave(function () {
         jQuery('.code_qq').slideToggle();
     });
 

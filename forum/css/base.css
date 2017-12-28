@@ -449,7 +449,6 @@ i{
 	font-weight:600; 
 }
 .panel-title a,.notice_title a.more{
-	color: #667ebd;
 	font-size: 12px;
 	font-weight: 400;
 }
@@ -552,13 +551,13 @@ margin-left:5px;
 	margin: 0!important;
 }
 
-.microblog,.contact_weixin{
+.contact_us_con a,.contact_us_con div{
 	padding:15px 0;
 	cursor: pointer;
 	display: block;
 }
-.microblog{
-	border-bottom: #ddd solid 1px;
+.contact_us_con div{
+	border-top: #ddd solid 1px;
 }
 .fa-weibo{
 	color: rgb(215, 83, 58);
@@ -833,7 +832,7 @@ div.uname{
 }
 
 .send_msg:link{
-	background: rgb(201, 211, 211);
+	background: #e5e5e5;
 	border-radius: 4px;
 	min-width: 86px;
 	text-align: center;
@@ -915,4 +914,14 @@ a.g-btn{
 }
 #p_btn i,#p_btn a{
 	background-image: none!important;
+}
+.w-q>img,.q-q>img{
+	width: 20px;
+	margin-right: 10px;
+}
+.w-q{
+	padding-right: 14px!important;
+}
+.q-q{
+	padding-right: 22px!important;
 }
