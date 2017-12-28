@@ -807,7 +807,13 @@ div.card{
 .bbs-moderator .tns{
 	color:#6c6c6c;
 }
-
+.ui-border>img{
+	width: 63px;
+    height: 63px;
+	border-radius: 50%;
+	padding:3px;
+	border: 2px solid #ddd;
+}
 
 .tb a{
 	background-color: #d4d4d4;
@@ -925,3 +931,7 @@ a.g-btn{
 .q-q{
 	padding-right: 22px!important;
 }
+ a:focus,a:visited,a:active{
+	 color: inherit;
+	 text-decoration: none;
+ }
