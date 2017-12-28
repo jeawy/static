@@ -58,18 +58,16 @@ a{
 	font-size: 15px;
 }
 .hot{
-	margin-top:5px;
+	margin-top:14px;
 	overflow:hidden;
 }
 
 
 
 .hot_img img{
-	width: 65px;
-    height: 65px;
-    border-radius: 35px;
-    padding: 3px;
-    border: 1px #ddd solid;
+	width: 50px;
+    height: 50px;
+    border-radius:50%;
 }
 
 .hot_con{
@@ -262,13 +260,11 @@ div.title{
 	background-color: inherit;
 }
 /* 页脚动画 */
-.code{
-	position: fixed;
-	bottom: 0;
-	left: 0;
-}
+
 .code img{
 display: none;
+position: fixed;
+bottom: 0;
 }
 .wechat,.qqgroup{
 	cursor: pointer;
@@ -688,7 +684,7 @@ ul.dropdown-menu{
 	min-width: initial;
 }
 .bm_c{
-	padding:0 15px;
+	padding:0 30px;
 }
 
 .qr_code_wrap{
@@ -858,6 +854,10 @@ div.uname{
 .to_home:hover{
 	color:#fff;
 }
+.to_home:focus,.to_home:active,.to_home:visited{
+text-decoration: none;
+color: #fff;
+}
 
 .font_color_gray{
 	color: #6c6c6c;
@@ -905,4 +905,7 @@ line-height: 14px;
 }
 .must>dt{
 	margin-top: 2px;
+}
+.mw120{
+	min-width: 120px;
 }
