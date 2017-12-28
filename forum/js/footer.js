@@ -17,27 +17,20 @@ jQuery(document).ready(function () {
     });
 
     /* 二维码hover动画 */
-    jQuery('.w-q').mouseenter(function () {
-        jQuery('.code_weixin').slideToggle();
-    });
-    jQuery('.w-q').mouseleave(function () {
+    jQuery('.w-q').click(function () {
         jQuery('.code_weixin').slideToggle();
     });
 
-
-
-    jQuery(".q-q").mouseenter(function () {
+    jQuery('.q-q').click(function () {
         jQuery('.code_qq').slideToggle();
     });
-    jQuery(".q-q").mouseleave(function () {
-        jQuery('.code_qq').slideToggle();
-    });
-
     /* 官方二维码 */
     jQuery('.contact_weixin').click(function () {
         jQuery('.qr_code_wrap').slideToggle();
     });
-    jQuery('#close').click(function () {
-        jQuery('.qr_code_wrap').slideUp();
+
+    /* 关闭按钮 */
+    jQuery('.close').click(function () {
+        jQuery(this).parent().parent().slideUp();
     });
 });
