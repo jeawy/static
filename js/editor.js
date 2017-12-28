@@ -920,11 +920,7 @@ function setContext(cmd) {
 		fs = '';
 	}
 	fs = fs && cmd != 'clear' ? fs : '字体';
-	if(fs != $(editorid + '_font').fontstate) {
-		thingy = fs.indexOf(',') > 0 ? fs.substr(0, fs.indexOf(',')) : fs;
-		$(editorid + '_font').innerHTML = thingy;
-		$(editorid + '_font').fontstate = fs;
-	}
+
 	try {
 		var ss = editdoc.queryCommandValue('fontsize');
 		if(ss == null || ss == '' || cmd == 'clear') {
