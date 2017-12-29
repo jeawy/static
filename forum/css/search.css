@@ -37,3 +37,10 @@ font-weight: 600;
 #scform{
     margin-top:30px; 
 }
+select.s-mh{
+    min-height: 32px;
+}
+.p-btn{
+   padding: 8px 40px;
+   font-size: 15px;
+}
