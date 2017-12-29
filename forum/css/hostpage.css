@@ -325,3 +325,7 @@
 	.bmw{
 		border-color: #ddd;
 	}
+	.popuptext .pc_l, .popuptext .pc_c, .popuptext .pc_inner, .popuptext .pc_r{
+		background-image: none;
+		background-color: rgb(234,80,20);
+	}
