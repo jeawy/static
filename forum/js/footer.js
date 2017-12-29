@@ -33,5 +33,6 @@ jQuery(document).ready(function () {
     jQuery('.close').click(function () {
         jQuery(this).parent().parent().slideUp();
     });
-
+    var minHeight=window.screen.availHeight-160;
+    jQuery('body').css('min-height',minHeight+'px');
 });
