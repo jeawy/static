@@ -327,5 +327,17 @@
 	}
 	.popuptext .pc_l, .popuptext .pc_c, .popuptext .pc_inner, .popuptext .pc_r{
 		background-image: none;
-		background-color: rgb(234,80,20);
+		background-color: rgb(234, 80, 20);
+		font-size: 14px;
+	}
+	#append_parent .popuptext .pc_l{
+		border-top-left-radius: 6px;
+		border-bottom-left-radius: 6px;
+	}
+	#append_parent .popuptext .pc_r{
+		border-top-right-radius: 6px;
+		border-bottom-right-radius: 6px;
+	}
+	.pc_inner i{
+		font-size: 14px!important;
 	}
