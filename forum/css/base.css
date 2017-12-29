@@ -45,7 +45,20 @@ a{
 .main{
 	margin-top:15px;
 }
-
+ul{
+	margin:0px;
+}
+.hasfsl{
+	margin-right: 2% !important;
+}
+.no-border>.ui-border>img{
+	padding:0px !important; 
+}
+.userheader{
+	width: 10%;
+    vertical-align: top;
+    padding-top: 11px;
+}
 .left{
 	background-color:#fff;
 	border: 1px solid #ddd;
