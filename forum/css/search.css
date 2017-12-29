@@ -2,7 +2,6 @@
     background-color: rgb(234,80,20);
     color: #fff;
     text-align: center;
-    padding: 6px 18px;
     border: 0px;
 }
 .search-container{
@@ -10,9 +9,6 @@
     padding-left:0px;
 }
 
-#scform_form12{
-    border: 1px solid rgb(212,212,213);
-}
 
 .search-img{
     width: 160px;
@@ -22,5 +18,19 @@
     margin: 0 auto;
 }
 .strong-my-search, .fa-my-search{
-    font-size: 18px;
+    font-size: 12px;
+}
+.sttl h2{
+    font-size: 14px;
+    margin: 0px;
+    padding: 15px;
+}
+button#scform_submit span{
+font-weight: 600;
+}
+.emp{
+    padding: 15px!important;
+}
+#threadlist{
+    padding: 0 15px;
 }

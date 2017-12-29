@@ -33,4 +33,5 @@ jQuery(document).ready(function () {
     jQuery('.close').click(function () {
         jQuery(this).parent().parent().slideUp();
     });
+
 });
