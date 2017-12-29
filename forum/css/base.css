@@ -67,13 +67,13 @@ ul{
 	padding: 0 0 15px;
 }
 .hot-posted{
-	padding: 10px 15px;
+	padding: 17px 30px;
 	background-color: #e5e5e5;
-	font-weight: 700;
-	font-size: 15px;
+	font-weight: 400;
+	font-size: 16px;
 }
 .hot{
-	margin-top:14px;
+	margin-top:27px;
 	overflow:hidden;
 }
 
@@ -139,9 +139,21 @@ padding-right:0px;
 	border-right:rgb(158,158,159) solid 1px;
 	padding:0px 2px;
 }
+.swiper-button-prev, .swiper-button-next{
+	height:22px !important;
+}
+.midaben_con .midaben_signpanel .fblock
+{
+	padding-top: 8px !important;
+}
+.midaben_con .midaben_signpanel .fblock .all{
+	line-height: 15px !important;
+}
+
 .logo{
-	height:auto;
+	height:34px;
 	margin-top:4px;
+	padding-top: 2px;
 }
 .i_block{
 	display: inline-block;
@@ -447,7 +459,7 @@ i{
 	border: #ddd solid 1px;
 }
 .recommend_head{
-	padding:  10px 15px;
+	padding:  17px 15px;
 	margin: 0px;
 	background: #e5e5e5;
 }
@@ -460,11 +472,11 @@ i{
 	padding-left:0px;
 }
 .recommend_body li{
-	margin-bottom: 14px;
+	margin-bottom: 10px;
 }
 .panel-title{
-	font-size: 15px;
-	font-weight:600; 
+	font-size: 16px;
+	font-weight:400; 
 }
 .panel-title a,.notice_title a.more{
 	font-size: 12px;
@@ -560,12 +572,16 @@ margin-left:5px;
 /* 
  *关注我们
  */
+ .close{
+	 margin-left:8px !important;
+ }
 
 .contact_us_title,.notice_title,div.frame-title{
-	padding:10px 15px;
+	padding:17px 15px;
 	background: #e5e5e5!important;
-	font-size: 15px;
-	font-weight: 600;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 17px;
 	margin: 0!important;
 }
 
@@ -704,7 +720,7 @@ ul.dropdown-menu{
 
 .qr_code_wrap,.code_weixin, .code_qq{
 	background-color: #fff;
-	padding: 15px;
+	padding: 20px;
 	color: #6c6c6c;
 	max-width: 250px;
 	box-shadow:0 2px 10px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
