@@ -39,13 +39,17 @@ header{
     height: 60px;
 }
 header .logo{
-    height: 56px;
-    padding:6px 6px 6px 15px;
+    height: 34px;
+    margin:0 15px 0 15px;
 }
 header .fa-search{
     line-height: 56px;
     margin-right: 15px;
     color:white;
+}
+.lh{
+    line-height: 56px;
+    padding-top: 4px;
 }
 /* 
  * 页脚
@@ -157,8 +161,10 @@ nav a:active,nav a:hover,nav a:focus,nav a:visited{
 }
 .icon-menu{
     width: 22px;
-    vertical-align:middle;
-    padding-bottom: 1px;
+    height: 22px;
+    margin-right: 4px;
+    vertical-align:top;
+
 }
 .avatar img{
     width:40px;
@@ -170,7 +176,7 @@ nav a:active,nav a:hover,nav a:focus,nav a:visited{
 }
 
 .thread-tr { 
-    height: 60px;
+    height: 70px;
 }
 
 .thread-td{
@@ -204,5 +210,9 @@ input.orange-submit{
     font-size: 12px;
 }
 .thread_tit{
-    color: rgb(234,80,20)!important;
+    background-color: #e5e5e5;
+    padding:10px 15px!important;
+    font-size: 16px!important;
+    color: #333!important;
+    margin-top: 0px!important;
 }
