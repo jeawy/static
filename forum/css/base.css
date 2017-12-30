@@ -306,9 +306,14 @@ right: 0;
 	margin-top: 15px;
 	padding: 0 15px 15px;
 }
-
+.left_subnav .xi2{
+	font-size: 12px;
+}
 .left_subnav li{
 	display: inline;
+}
+.left_subnav .pull-right{
+	padding-top:10px;
 }
 .font_color,.left_subnav .pull-right a:hover,.left_subnav .pull-right a:hover{
 	color:rgb(234,80,20);
@@ -803,7 +808,7 @@ a#typeid_ctrl:focus{
 }
 #append_parent div#typeid_ctrl_menu{
 	min-width: 118px;
-    top: 159px!important;
+    top: 100px!important;
     margin-left: -13px;
 }
 li.pm2 a.xi2:link{
@@ -974,4 +979,8 @@ a.g-btn{
 	margin: 0px;
 	padding: 15px;
 	font-size: 14px;
+}
+
+.sadd p.mbn{
+	margin-bottom: 15px!important;
 }
