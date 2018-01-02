@@ -146,8 +146,8 @@ a.faq { background: url(faq.gif) no-repeat 0 2px; padding:1px; margin-left:10px;
 	#scrolllink span { cursor: pointer; }
 	#scrolllink img { margin-left: 2px; }
 .copyright{ position:absolute; z-index:10; left:5px; bottom:3px; padding-top:3px; border-top:1px dashed #DDD; text-align:left; line-height:150%; font-family:Tahoma; font-size:11px; -webkit-text-size-adjust: none; }
-.logintb{ text-align:left; margin:120px auto 0; width:600px; }
-.login{ padding-right:30px; width:310px; height:150px; background:url(bg_login.gif) right 50% no-repeat; }
+.logintb{ text-align:left; margin:160px auto 0; width:600px; }
+.login{text-align: right; padding-right:30px; width:310px; height:150px; background:url(bg_login.gif) right 50% no-repeat; }
 	.login h1{ text-indent:-9999px; margin-bottom:10px; width:262px; height:26px; background:url(login_title.gif) no-repeat; }
 	.login p{ line-height:150%; }
 .logintitle, .loginform { margin:2px 0; height:22px; line-height:22px; font-size:14px; }
