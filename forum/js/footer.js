@@ -35,4 +35,6 @@ jQuery(document).ready(function () {
     });
     var minHeight=window.screen.availHeight-160;
     jQuery('body').css('min-height',minHeight+'px');
+/* 去掉帖子列表最后一个分割线 */
+    jQuery('.hot_con:last').addClass("bd_none");
 });
