@@ -1012,6 +1012,7 @@ h3{
 }
 #quick_sch_menu{
 	top: 68px!important;
+	margin-left: -17px;
 }
 .block .xl1 ul li{
 	height:16px;
