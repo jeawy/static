@@ -297,3 +297,6 @@ a:hover,a:focus,a:active,a:visited{
     padding: 15px;
     height: auto;
 }
+a.blue:link, a.blue:visited, a.blue:hover{
+    color:#6c6c6c;
+}

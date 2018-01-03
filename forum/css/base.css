@@ -469,7 +469,7 @@ i{
 	background: #e5e5e5;
 }
 .recommend_body{
-	padding: 10px 15px;
+	padding: 20px 15px;
 	margin: 0px;
 	background-color: #fff;
 }
@@ -647,7 +647,7 @@ margin-left:5px;
  */
  
 .notice_con img{
-	width: 90px;
+	width: 80px;
 	margin-right: 12px;
 }
 .Reservations{
@@ -669,11 +669,11 @@ margin-left:5px;
 	margin-left: 4px;
 }
 .notice_text{
-	margin-top: 10px;
+	margin-top:6px;
 	color:#6c6c6c;
 }
-.notice_text div{
-	margin-bottom: 6px
+.notice_text a{
+	margin-top: 10px;
 }
 .notice_title .more .fa{
 	margin-left: 4px;
@@ -908,13 +908,14 @@ color: #fff;
 .font_color_gray{
 	color: #6c6c6c;
     overflow: hidden;
-    height: 18px;
+    height: 16px;
 }
 .font_color_gray a{
 	font-size: 12px;
 }
 .gray_round {
-margin-right: 7px;
+margin-right: 6px;
+margin-bottom: 2px;
 height: 4px;
 padding: 0px;
 border: 1px solid #6c6c6c;
@@ -1008,4 +1009,7 @@ line-height: 14px;
 h3{
 	margin-top:30px;
 	margin-bottom: 5px; 
+}
+#quick_sch_menu{
+	top: 40px!important;
 }

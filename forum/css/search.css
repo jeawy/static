@@ -25,8 +25,9 @@
     margin: 0px;
     padding: 15px;
 }
-button#scform_submit span{
-font-weight: 600;
+button#scform_submit span,#scform_submit strong{
+font-weight: 300;
+letter-spacing: 2px;
 }
 .emp{
     padding: 15px!important;
