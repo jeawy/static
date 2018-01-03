@@ -15,7 +15,9 @@ ul{
     padding: 0px;
     list-style-type: none;
 }
-
+.summary-wrap{
+    padding-bottom: 10px;
+}
 /* 
 * 板块标题
 */
@@ -26,6 +28,7 @@ ul{
     width: 76px;
     height: 76px;
     border-radius: 6px;
+    padding: 10px;
     vertical-align: bottom;
 }
 .forum-title{
@@ -79,9 +82,7 @@ ul{
 .fa-magin{
     margin-left: 6px;
 }
-.summary-wrap{
-    padding-left: 15px;
-}
+
 ul .user-name{
     margin-right: 10px;
     padding: 0;

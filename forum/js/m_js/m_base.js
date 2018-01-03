@@ -18,4 +18,7 @@ window.onload = function(){
     oTop.onclick = function(){
       document.documentElement.scrollTop = document.body.scrollTop =0;
     };
+
+    /* 去掉帖子列表最后一个分割线 */
+    jQuery('.post-summary:last,.thread-td:last').addClass("bd_none");
   };

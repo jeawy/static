@@ -40,7 +40,7 @@ header{
 }
 header .logo{
     height: 34px;
-    margin:0 15px 0 15px;
+    margin:0 15px 8px 15px;
 }
 header .fa-search{
     line-height: 56px;
@@ -105,8 +105,8 @@ nav a:active,nav a:hover,nav a:focus,nav a:visited{
 }
 .hide-menu{
     position: absolute;
-    top:-310%;
-    left: 0.5px;
+    top: -320%;
+    left: 20px;
     z-index: 100;
     background-color: #fff;
     padding:5px 10px 10px;
@@ -182,14 +182,20 @@ nav a:active,nav a:hover,nav a:focus,nav a:visited{
 .thread-td{
     border-bottom: 1px solid #ccc;
     padding-left: 10px;
+    padding-top: 12px;
     width: 100%;
 }
 .list-user-img-thread{
     width: 50px;
+    height: 50px;
     border-radius: 50%;
+    margin-top: 8px;
 }
 .myinfo_list li{
     margin: 0px;
+}
+.container>.posted_content{
+    padding-bottom: 15px;
 }
 .my_btn{
 	background-color: rgb(234,80,20); 
@@ -211,8 +217,54 @@ input.orange-submit{
 }
 .thread_tit{
     background-color: #e5e5e5;
-    padding:10px 15px!important;
+    padding:8px 15px!important;
     font-size: 16px!important;
     color: #333!important;
     margin-top: 0px!important;
+}
+.bd_none{
+    border: none!important;
+}
+a:hover,a:focus,a:active,a:visited{
+ outline: none;
+ text-decoration: none;
+}
+
+.btn_login .pn, .btn_register .pn{
+    background-image: none;
+    background-color: rgb(234,80,20);
+    font-size: 14px;
+    height: auto;
+    width: auto;
+    padding: 6px 36px;
+    line-height: inherit;
+    letter-spacing: 2px;
+}
+.login_from li,.login_from{
+    border: none;
+}
+#loginform{
+    background-color: #fff;
+    padding: 15px 15px 20px;
+    border: 1px soli #ccc;
+    border-radius: 6px;
+}
+.bc-w{
+    background-color: #fff;
+    margin-bottom: 0;
+    padding: 15px 15px 10px;
+    margin-top: 15px;
+    font-size: 16px;
+}
+.reply_warp{
+    background-color: #fff;
+}
+.p_fre{
+    width: 100%!important;
+}
+.px{
+    padding: 6px 0;
+}
+.login_from li{
+    text-align: center;
 }
