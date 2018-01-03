@@ -300,3 +300,24 @@ a:hover,a:focus,a:active,a:visited{
 a.blue:link, a.blue:visited, a.blue:hover{
     color:#6c6c6c;
 }
+.nf-btn a{
+    display: inline-block;
+	padding: 2px 18px;
+	border-radius:4px;
+	margin: 15px 15px 0;
+	background-color: #fff;
+	font-weight: 400;
+	border: #ccc solid 1px; 
+	min-width: 108px!important;
+	color: #333;
+	text-align: center;
+	min-width: 110px;
+}
+.nf-wrap img{
+    width: 100%;
+    margin-top: 60px;
+}
+.jump_c{
+    text-align: center;
+    padding: 30px 0;
+}
