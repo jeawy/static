@@ -289,7 +289,7 @@
 		border-color:transparent;
 	}
 
-	.qr_code_wrap>div,.code_weixin>div,.code_weixin>div{
+	.qr_code_wrap>div,.code_weixin>div,.code_qq>div{
 		border-bottom:1px solid #ddd;
 		padding-bottom: 10px;
 		margin-bottom: 15px;
