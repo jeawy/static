@@ -15,7 +15,7 @@ ul{
     padding: 0px;
     list-style-type: none;
 }
-.summary-wrap{
+.reply-w{
     padding-bottom: 10px;
 }
 /* 
@@ -69,7 +69,7 @@ ul{
 .post-summary{
     border-bottom: 1px solid #ddd;
     padding-top: 4px;
-    padding-bottom: 10px;
+    padding-bottom: 12px;
     color: rgb(121, 121, 121);
 }
 .user_nub {

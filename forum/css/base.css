@@ -291,12 +291,6 @@ div.title{
 }
 /* 页脚动画 */
 
-.code_weixin,.code_qq{
-display: none;
-position: fixed;
-bottom: 0;
-right: 0;
-}
 .wechat,.qqgroup{
 	cursor: pointer;
 }
