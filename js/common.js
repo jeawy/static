@@ -741,8 +741,9 @@ function showMenu(v) {
 	}
 	if(BROWSER.ie && BROWSER.ie < 7 && winhandlekey && $('fwin_' + winhandlekey)) {
 		$(menuid).style.left = (parseInt($(menuid).style.left) - parseInt($('fwin_' + winhandlekey).style.left)) + 'px';
-		$(menuid).style.top = (parseInt($(menuid).style.top) - parseInt($('fwin_' + winhandlekey).style.top)) + 'px';
+		$(menuid).style.top = (parseInt($(menuid).style.top) - parseInt($('fwin_' + winhandlekey).style.top) - 400) + 'px';
 	}
+	$(menuid).style.top = ($(menuid).offsetTop - 50)+"px";
 	if(maxh && menuObj.scrollHeight > maxh) {
 		menuObj.style.height = maxh + 'px';
 		if(BROWSER.opera) {
