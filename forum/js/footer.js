@@ -1,40 +1,43 @@
 jQuery(document).ready(function () {
 
-    /* 下拉框宽度 */
+/* 下拉框宽度 */
     jQuery('ul.spinner').width(jQuery('button.spinner_btn').innerWidth());
 
-    /* 输入字数监听 */
-    jQuery("#posted-title").on('keyup input', function (event) {
-        var val = jQuery(this).val();
-        var len = val.length;
-        var count = jQuery(this).siblings('span');
-        if (len == 0) { count.text("0/50"); return; }
-        if (len > 50) {
-            len = 50;
-            jQuery(this).val(val.substring(0, 50));
-        }
-        count.text(len + "/50");
-    });
-
-    /* 二维码hover动画 */
+/* 二维码 */
+var code=jQuery('.code');
     jQuery('.w-q').click(function () {
-        jQuery('.code_weixin').slideToggle();
+        code.slideUp();
+        jQuery('.code:eq(0)').slideToggle();
     });
-
     jQuery('.q-q').click(function () {
-        jQuery('.code_qq').slideToggle();
+        code.slideUp();
+        jQuery('.code:eq(2)').slideToggle();
     });
-    /* 官方二维码 */
     jQuery('.contact_weixin').click(function () {
-        jQuery('.qr_code_wrap').slideToggle();
+        code.slideUp();
+        jQuery('.code:eq(1)').slideToggle();
     });
 
-    /* 关闭按钮 */
+/* 关闭按钮 */
     jQuery('.close').click(function () {
         jQuery(this).parent().parent().slideUp();
     });
+/* body最小宽度 */
     var minHeight=window.screen.availHeight-160;
     jQuery('body').css('min-height',minHeight+'px');
+
 /* 去掉帖子列表最后一个分割线 */
     jQuery('.hot_con:last').addClass("bd_none");
+
+/* 头像下拉菜单 */
+    jQuery('.logged_in').click(function (e) {
+        jQuery('#user_login_nav').slideToggle();
+        e.stopPropagation();
+    })
+    jQuery(document).click(function () {
+        jQuery('#user_login_nav').slideUp();
+    })
+
+    jQuery(":input:focus").css('outline','none!important');
+    jQuery('.time:first').css('border-bottom','1px solid #cdcdcd');
 });

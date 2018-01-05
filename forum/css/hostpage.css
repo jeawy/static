@@ -141,13 +141,12 @@
 		white-space: nowrap;
 		vertical-align: baseline;
 	}
-	.time{
-			border-bottom: 1px solid rgb(212,212,213);
-			padding-bottom:10px;
+	.time{padding-bottom:10px;
 			margin-bottom: 10px;
+			color: #6c6c6c;
 			font-size:12px!important;
 	}
-	
+
 	textarea{
 		width: 100%;
 		border-color:rgb(212,212,213);
@@ -289,7 +288,7 @@
 		border-color:transparent;
 	}
 
-	.qr_code_wrap>div,.code_weixin>div,.code_qq>div{
+	.code>div{
 		border-bottom:1px solid #ddd;
 		padding-bottom: 10px;
 		margin-bottom: 15px;

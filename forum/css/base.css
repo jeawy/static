@@ -152,7 +152,7 @@ padding-right:0px;
 
 .logo{
 	height:34px;
-	margin-top:4px;
+	margin-top:7px;
 	padding-top: 2px;
 }
 .i_block{
@@ -291,12 +291,6 @@ div.title{
 }
 /* 页脚动画 */
 
-.code_weixin,.code_qq{
-display: none;
-position: fixed;
-bottom: 0;
-right: 0;
-}
 .wechat,.qqgroup{
 	cursor: pointer;
 }
@@ -368,7 +362,8 @@ border-left:#ddd solid 1px;
 }
 .login_holder
 {
-	padding: 16px 0px 16px 15px;
+	padding: 19px 0px 16px 15px;
+	font-size: 12px;
 }
 
 .login_holder a
@@ -400,6 +395,9 @@ ul.navbar-nav{
 .orange
 {
 	color:rgb(234,80,20);
+}
+.f14{
+	font-size: 14px!important;
 }
 .orange-bg
 {
@@ -520,13 +518,22 @@ i{
 	margin-left: 15px;
 }
 .fa-commenting,.fa-eye,.fa-share-alt,.fa-heart{
-	color:#9c9c9c;
+	color:#bbb;
+	margin-left: 10px;
+	margin-right: 4px;
+}
+
+.fa-commenting,.fa-eye,.fa-share-alt,.fa-heart{
+	color:#bbb;
 	margin-left: 10px;
 	margin-right: 4px;
 }
 nav.navbar {
 	border-top: 5px solid rgb(234,80,20);
 	border-bottom: none;
+}
+.xw1{
+font-weight: 400!important;
 }
 
 
@@ -609,10 +616,7 @@ margin-left:5px;
 	font-size: 18px;
 }
 
-.qr_code{
-	width: 160px;
-	height: auto;
-}
+
 .notice_con{
 	padding: 15px;
 	background-color: #fff;
@@ -723,7 +727,7 @@ ul.dropdown-menu{
 	padding:0 30px;
 }
 
-.qr_code_wrap,.code_weixin,.code_qq{
+.code{
 	background-color: #fff;
 	padding: 20px;
 	color: #6c6c6c;
@@ -734,7 +738,7 @@ ul.dropdown-menu{
 	bottom: 0px;
 	display: none;
 }
-.qr_code_wrap img,.code_weixin img,.code_qq	img{
+.code img{
 	width: 100%;
 }
 .block .xl1 ul li{
@@ -1052,4 +1056,22 @@ margin: 10px 0 0 0;
 }
 #messagetext{
 	padding: 0px;
+}
+
+/* button.spinner_btn:focus{
+	outline: none;
+} */
+*:focus{
+	outline: none!important;
+}
+.ptm.pnpost{
+	margin-top: 15px;
+}
+.po.hin{
+	 opacity: 1; 
+	 border-top: 1px solid #cdcdcd;
+}
+.pct{
+	padding-bottom: 15px;
+	margin-top: -10px;
 }
