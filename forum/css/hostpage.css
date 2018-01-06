@@ -141,18 +141,18 @@
 		white-space: nowrap;
 		vertical-align: baseline;
 	}
-	.time{padding-bottom:10px;
-			margin-bottom: 10px;
-			color: #6c6c6c;
-			font-size:12px!important;
+	.time{
+		padding-bottom:10px;
+		margin-bottom: 10px;
+		color: #6c6c6c!important;
+		font-size:12px!important;
 	}
 
 	textarea{
 		width: 100%;
 		border-color:rgb(212,212,213);
-		border-left:0px;
-		border-right:0px;	
 	}
+
 	.collect{
 		margin-left: 5px;
 	}
@@ -198,6 +198,7 @@
 	}
 	h3.flb{
 		margin-top: 10px;
+		font-weight: 300;
 	}
 	.tm_c div.o,.tm_c p.o{
 		background-color: #fff;
@@ -208,17 +209,21 @@
 		border-top:none;
 	}
 	.pns .orange-btn{
-		padding: 2px 10px;
-		border-radius: 4px;
+		padding: 2px 12px;
+		margin-top: 5px;
+		margin-bottom: 10px;
+	}
+	.pn.pnc>strong{
+		padding: 0px;
 	}
 	.t_l, .t_c, .t_r, .m_l, .m_r, .b_l, .b_c, .b_r{
-		background: #fff;
+		background-color: transparent;
 	}
 	.flb{
 		padding: 0px;
 	}
 	td.m_c{
-		padding:8px 20px;
+		padding:5px 15px 0;
 		box-shadow: 0 2px 10px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
 	}
 	.m_c .c{
@@ -251,13 +256,14 @@
 	.flb em{
 		color: rgb(234,80,20)!important;
 		font-size: 15px;
+		font-weight: 300;
 	}
 	#fctrl_mods{
 		border-bottom: 1px solid #ddd;
 		height:30px;
 	}
 	button.pn{
-		padding: 2px 10px;
+		padding: 1px 10px 3px;
 		border-radius: 4px;
 		margin-left: 10px;
 		border: 0px;
@@ -340,3 +346,7 @@
 	.pc_inner i{
 		font-size: 14px!important;
 	}
+	.xlda dd a{
+		color: #999 !important;
+	}
+	
