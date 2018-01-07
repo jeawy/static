@@ -12,23 +12,30 @@ li.a{
     padding-left: 0px;
 }
 .leftsidebar li.a{
-    border-bottom: 1px solid rgb(234,80,20);
+    background-color: #f7f7f7;
+    color: inherit;
 }
 .leftsidebar_title{
-    background-color: rgb(234,80,20);
-    color: #fff;
-    margin: 0px;
-    padding: 10px 15px;
     font-size: 16px;
+    background-color: #fff;
+    border-width: 1px 1px 0px 1px!important;
+    border: solid #ddd;
+}
+.leftsidebar_title span{
+    display:block;
+    margin: 0 15px;
+    padding: 15px 0px;
+    border-bottom: 1px solid #cdcdcd;
 }
 .leftsidebar_list{
     background-color: #fff;
-    padding:15px;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0,.2)
+    border-width: 0px 1px 1px 1px!important;
+    border: solid #ddd;
+    padding:10px 0;
 }
 .leftsidebar_list>li{
-    padding: 10px 0px;
-    font-size: 15px;
+    padding: 10px 15px;
+    font-size: 14px;
     cursor: pointer;
 }
 

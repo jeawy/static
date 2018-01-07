@@ -28,6 +28,7 @@ var code=jQuery('.code');
 
 /* 去掉帖子列表最后一个分割线 */
     jQuery('.hot_con:last').addClass("bd_none");
+    
 
 /* 头像下拉菜单 */
     jQuery('.logged_in').click(function (e) {
@@ -39,5 +40,11 @@ var code=jQuery('.code');
     })
 
     jQuery(":input:focus").css('outline','none!important');
-    jQuery('.time:first').css('border-bottom','1px solid #cdcdcd');
-});
+    jQuery('.time:first').css('border-bottom','1px solid #cdcdcd').css('margin-bottom',10+'px').css('padding',0+'px');
+    /* 去掉最后一个回复的下划线 */
+    if(jQuery('.po.hin').length>=2){
+        jQuery('.po.hin:last').addClass("bd_none");
+    };
+    
+/*     jQuery('.swiper-container-horizontal').hover(jQuery('.swiper-button-prev,.swiper-button-next').show());
+ */});
