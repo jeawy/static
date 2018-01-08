@@ -1150,3 +1150,12 @@ span.jiathis_txt.jiathis_separator.jtico{
 	display: none!important;
 }
  */
+
+ .form-control:focus{
+	box-shadow:unset;
+	-webkit-box-shadow:unset;
+ }
+ .form-control{
+	box-shadow:unset;
+	-webkit-box-shadow:unset;
+ }

@@ -40,13 +40,13 @@
     padding: 8px;
     border-bottom: 1px solid rgba(204, 204, 204,.5);
 }
-#user_login_nav>ul>li>img{
+#user_login_nav>ul>li>a>img{
     margin-right: 6px;
     width: 16px;
     height: auto;
     margin-bottom: 2px;
     border-radius: 0px;
-}
+}   
 
 /* #user_login_nav::before {
     border-left: 6px solid;
