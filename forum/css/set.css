@@ -11,7 +11,7 @@ section.container{
     color: rgb(234,80,20);
 }
 .leftsidebar{
-    padding-left: 0px;
+    padding: 0px;
 }
 .leftsidebar .a{
     background-color: #f7f7f7;
@@ -45,11 +45,20 @@ section.container{
 /* 
  *右侧详情
  */
+
  .personal_data{
-     background-color: #fff;
-     padding: 15px;
-     border: 1px solid #ddd;
- }
+    min-height: 400px;
+    padding-right: 0px;
+}
+.personal_data .mt{
+    font-size: 14px;
+	 padding:15px;
+	 margin: 0 -15px 15px;
+	 background-color: #f7f7f7;
+}
+.personal_data .tb{
+    margin-left: -15px;
+}
  .personal_data div.h4{
      font-size: 16px;
      font-weight: 600;

@@ -9,7 +9,7 @@ li.a{
     color: rgb(234,80,20);
 }
 .leftsidebar{
-    padding-left: 0px;
+    padding: 0px;
 }
 .leftsidebar li.a{
     background-color: #f7f7f7;
@@ -43,8 +43,14 @@ li.a{
  *右侧消息详情
  */
  .information{
-     background-color: #fff;
-     min-height: 380px;
+     min-height: 400px;
+     padding-right: 0px;
+ }
+ .information .tb{
+    margin: 0 -15px 15px!important;
+     padding:15px 0!important;
+     background-color: #f7f7f7!important;
+     line-height:unset;
  }
  .rightsidebar{
      padding: 15px 0px;
@@ -80,8 +86,7 @@ div.friends_details{
 /* 消息提交按钮（discuz默认ID）*/
 button#pmsubmit_btn{
     background-color: rgb(234,80,20);
-    border: 1px solid rgb(253, 97, 40);
-    padding: 2px 8px;
+    padding: 3px 18px;
     height: auto;
 }
 /* 选择好友（discuz默认ID） */
@@ -90,4 +95,7 @@ button#pmsubmit_btn{
 }
 .tb .my_btn{
     color: inherit;
+}
+.bbda.cur1.cl{
+    border-bottom: 1px solid #ddd;
 }

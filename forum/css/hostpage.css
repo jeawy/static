@@ -142,7 +142,7 @@
 		vertical-align: baseline;
 	}
 	.time{
-		padding-bottom:10px;
+		padding-bottom:10px!important;
 		color: #6c6c6c!important;
 		font-size:12px!important;
 	}
@@ -208,9 +208,10 @@
 		border-top:none;
 	}
 	.pns .orange-btn{
-		padding: 2px 12px;
+		padding: 4px 18px;
 		margin-top: 5px;
 		margin-bottom: 15px;
+		border-radius: 4px;
 	}
 	.pn.pnc>strong{
 		padding: 0px;
@@ -229,7 +230,11 @@
 		padding: 0px;
 	}
 	.px, .pt, .ps, select{
-		border-radius:4px; 
+		outline: none;
+		box-shadow: unset;
+		border: 1px solid #ddd;
+		background-image: unset!important;
+		min-height:32px;
 	}
 	td input.px,td .pt,p .pt{
 		width: 100%;
@@ -262,10 +267,9 @@
 		height:30px;
 	}
 	button.pn{
-		padding: 4px 20px 2px;
+		padding: 4px 18px;
 		margin: 10px 0 15px 0;
-		border-radius: 4px;
-		margin-left: 10px;
+		border-radius: 4px!important;
 		border: 0px;
 		background: rgb(234,80,20)!important;
 		color: #fff;
@@ -313,6 +317,7 @@
 		position: absolute;
 		right: 0px;
 		bottom: 15px;
+		border-radius: 4px;
 	}
 	.posted-btn .pencil{
 		width: 22px;
