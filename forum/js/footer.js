@@ -45,6 +45,7 @@ var code=jQuery('.code');
     if(jQuery('.po.hin').length>=2){
         jQuery('.po.hin:last').addClass("bd_none");
     };
+    jQuery(".posts-d:last").addClass("bd_none");
     
 /*     jQuery('.swiper-container-horizontal').hover(jQuery('.swiper-button-prev,.swiper-button-next').show());
  */});

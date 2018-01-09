@@ -47,7 +47,6 @@ section.container{
  */
 
  .personal_data{
-    min-height: 400px;
     padding-right: 0px;
 }
 .personal_data .mt{
@@ -86,4 +85,26 @@ section.container{
 }
 .userimg_show{
     margin: 30px;
+}
+ul.tb.cl{
+    display:none;
+}
+#friend_ul,.f-w{
+    border: 1px solid #ddd;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    clear: both;
+}
+.bb-5{
+    margin: 5px 0!important;
+}
+a.my_btn:hover{
+    color: #fff;
+}
+.z.ptn{
+    margin-left: 6px;
+}
+.p_pop{
+    top:72px!important;
+    left: 0px!important;
 }

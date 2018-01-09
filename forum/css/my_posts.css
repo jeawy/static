@@ -1,19 +1,58 @@
+/* 
+ *左侧导航
+ */
+
+ li.a{
+    color: rgb(234,80,20);
+}
+.leftsidebar{
+    padding: 0px;
+}
+.leftsidebar li.a{
+    background-color: #f7f7f7;
+    color: inherit;
+}
+.leftsidebar_title{
+    font-size: 16px;
+    background-color: #fff;
+    border-width: 1px 1px 0px 1px!important;
+    border: solid #ddd;
+}
+.leftsidebar_title span{
+    display:block;
+    margin: 0 15px;
+    padding: 15px 0px;
+    border-bottom: 1px solid #cdcdcd;
+}
+.leftsidebar_list{
+    background-color: #fff;
+    border-width: 0px 1px 1px 1px!important;
+    border: solid #ddd;
+    padding:10px 0;
+}
+.leftsidebar_list li{
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* 右侧详情 */
+.my_posts{
+    padding-right: 0px;      
+}
+.title-tb{
+    margin: 0 -15px 15px!important;
+    padding:15px!important;
+    background-color: #f7f7f7!important;
+    line-height:unset;
+    display: block;
+}
 .font-grey{
     color:#999;
 }
 section.container{
     margin-top: 15px;
     margin-bottom: 15px;
-}
-
-.title_my_posts{
-    font-size: 15px;
-    font-weight:600;
-    margin: 15px 0;
-    padding: 10px 15px;
-    background-color: #fff;
-   width: 88%;
-   float: left;
 }
 .o-flow{
     overflow: hidden;
@@ -42,25 +81,6 @@ section.container{
 }
 .posted_btn:hover{
     box-shadow:0 2px 6px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
-
-}
-
-
-.my_posts_tab span{
-    background-color: #d4d4d4;
-    font-weight: 600;
-    padding: 3px 6px;
-    text-align: center;
-    display: inline-block;
-    width: 100px;
-    letter-spacing: 1px;
-    cursor: pointer;
-    float: left;
-    margin-right: 1px;
-}
-li.a span{
-    background-color: rgb(234,80,20);
-    color: #fff;
 }
 .details_head{
     background-color: rgb(249, 249, 249);
@@ -85,7 +105,18 @@ li.a span{
 ul li.item-title{
     padding: 0 15px 0 0;
 }
+
 .item-writer{
     margin-right: 20px;
 }
-
+.posts-d{
+border-bottom: 1px solid #ddd;
+}
+.posts-d>div{
+    padding:12px 15px;
+}
+.my-posts-t a{
+    margin-right: 6px;
+}.f-g{
+    color: #999;
+}

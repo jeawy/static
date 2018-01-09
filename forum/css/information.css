@@ -99,3 +99,21 @@ button#pmsubmit_btn{
 .bbda.cur1.cl{
     border-bottom: 1px solid #ddd;
 }
+.xlda dd a{
+    color: rgb(234,80,20)!important;
+}
+.db-0>li{
+    display: none;
+}
+.db-0>li:first-child{
+    display: block;
+}
+.db-0>li>a{
+    color: #333;
+}
+.pm_o.y a,.pm_o.y span{
+    display: inline-block;
+    line-height: 1.2;
+    padding:0 6px;
+    margin-top: 2px;
+}

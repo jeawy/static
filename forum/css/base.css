@@ -1197,6 +1197,9 @@ span.jiathis_txt.jiathis_separator.jtico{
  }
  .bc-w{
     background-color: #fff;
-    padding:0 15px;
+    padding:0 15px 15px;
     border:1px solid #ddd;
+}
+.br-g{
+	border-right: #ddd 1px solid;
 }
