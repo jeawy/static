@@ -47,7 +47,7 @@ var code=jQuery('.code');
     };
     jQuery(".posts-d:last").addClass("bd_none");
     var sbs=jQuery('.swiper-button-prev,.swiper-button-next');
-    jQuery('.swiper-wrapper').mouseenter(function(){
+    jQuery('.swiper-wrapper，.swiper-button-prev,.swiper-button-next').mouseenter(function(){
         sbs.show()
     });
     jQuery('.swiper-wrapper').mouseleave(function(){
