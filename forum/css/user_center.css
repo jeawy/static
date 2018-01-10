@@ -1,8 +1,11 @@
+section.container{
+    margin-bottom: 20px;
+}
 /* 
  *用户信息展示-头部
  */
  .userinfo_top{
-     margin-top:60px; 
+     margin-top:50px; 
  }
  .userinfo_top .pull-left img{
      width:140px;
@@ -21,9 +24,10 @@
     color: #aaa;
  }
  .msg_table td{
-	width:120px;
+	width:110px;
     text-align:center;
-    font-size: 16px;
+    font-size: 15px;
+    height:22px;
 }
 .msg_table .left_line{
     border-left:#ccc solid 1px;
@@ -31,6 +35,8 @@
 }
 .userinfo_top_msg>h2{
     padding-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
 .userinfo_tab_nav{
     margin-top:30px; 
@@ -51,7 +57,7 @@ span.act{
     margin-bottom: 30px;
 }
 .usercontent{
-    background-color: #fff;
+    padding-right:0;
 }
 .userinfo_bottom span{
     display: inline-block;
@@ -107,3 +113,47 @@ span.management{
     margin-left: 10px;
 }
 
+/* 下作侧栏菜单 */
+.leftsidebar{
+    padding: 0px;
+}
+.leftsidebar .a{
+    background-color: #f7f7f7;
+    color: inherit;
+}
+.leftsidebar_title{
+    font-size: 16px;
+    background-color: #fff;
+    border-width: 1px 1px 0px 1px!important;
+    border: solid #ddd;
+}
+.leftsidebar_title span{
+    display:block;
+    margin: 0 15px;
+    padding: 15px 0px;
+    border-bottom: 1px solid #cdcdcd;
+}
+.leftsidebar_list{
+    background-color: #fff;
+    border-width: 0px 1px 1px 1px!important;
+    border: solid #ddd;
+    padding:10px 0;
+}
+.leftsidebar_list div{
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+/* 右侧头部 */
+.right-title{
+    margin: 0 -15px 15px!important;
+    padding:15px!important;
+    background-color: #f7f7f7!important;
+    line-height:unset;
+}
+.ml-15{
+    padding-left: 0px;
+}
+.ml-15 .a{
+    color: rgb(234,80,20);
+}
