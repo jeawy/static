@@ -515,7 +515,7 @@ i{
 	padding-left:0px;
 }
 .recommend_body li{
-	margin-bottom: 10px;
+	margin-bottom: 8px;
 }
 .panel-title{
 	font-size: 16px;
@@ -946,7 +946,7 @@ color: #fff;
 .font_color_gray{
 	color: #6c6c6c;
     overflow: hidden;
-    height: 16px;
+    height: 20px;
 }
 .font_color_gray a{
 	font-size: 12px;
