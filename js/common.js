@@ -642,6 +642,7 @@ function showMenu(v) {
 			};
 
 			ctrlObj.overfunc = typeof ctrlObj.onmouseover == 'function' ? ctrlObj.onmouseover : null;
+			 
 			ctrlObj.onmouseover = function(e) {
 				doane(e);
 				if(this.overfunc) this.overfunc();
@@ -657,6 +658,7 @@ function showMenu(v) {
 					}
 				}
 			};
+			 
 		}
 	}
 
@@ -1715,7 +1717,7 @@ function cardInit() {
 				cardids[href] = Math.round(Math.random()*10000);
 			}
 			a[i].setAttribute('mid', 'card_' + cardids[href]);
-			a[i].onmouseover = function() {cardShow(this)};
+			//a[i].onmouseover = function() {cardShow(this)};
 			a[i].onmouseout = function() {clearTimeout(USERCARDST);};
 		}
 	}
