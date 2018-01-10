@@ -108,3 +108,7 @@ a.my_btn:hover{
     top:72px!important;
     left: 0px!important;
 }
+li.post-lists{
+    padding:12px 0;
+border-bottom: 1px solid #eee;
+}
