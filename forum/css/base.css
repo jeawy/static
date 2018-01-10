@@ -1203,3 +1203,6 @@ span.jiathis_txt.jiathis_separator.jtico{
 .br-g{
 	border-right: #ddd 1px solid;
 }
+.swiper-button-prev,.swiper-button-next{
+	display: none;
+}

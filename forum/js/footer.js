@@ -46,6 +46,11 @@ var code=jQuery('.code');
         jQuery('.po.hin:last').addClass("bd_none");
     };
     jQuery(".posts-d:last").addClass("bd_none");
-    
-/*     jQuery('.swiper-container-horizontal').hover(jQuery('.swiper-button-prev,.swiper-button-next').show());
- */});
+    var sbs=jQuery('.swiper-button-prev,.swiper-button-next');
+    jQuery('.swiper-wrapper').mouseenter(function(){
+        sbs.show()
+    });
+    jQuery('.swiper-wrapper').mouseleave(function(){
+        sbs.hide()
+    });
+ });
