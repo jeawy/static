@@ -198,6 +198,10 @@
 	h3.flb{
 		margin-top: 10px;
 		font-weight: 300;
+		height: 40px;
+		line-height: 40px;
+		background-color: #f7f7f7;
+		font-size: 14px;
 	}
 	.tm_c div.o,.tm_c p.o{
 		background-color: #fff;
