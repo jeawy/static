@@ -1214,3 +1214,6 @@ p.o.pns button.pn.pnc{
 	margin: 10px 6px 15px 0!important;
 	
 }
+.tl .c-tb td,.tl .c-tb th{
+	padding: 10px 0!important;
+}
