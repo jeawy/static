@@ -112,3 +112,6 @@ li.post-lists{
     padding:12px 0;
 border-bottom: 1px solid #eee;
 }
+#friend_ul li,#friend_ul div{
+    margin: 10px 0px;
+}

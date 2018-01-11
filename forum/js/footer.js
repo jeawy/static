@@ -53,4 +53,5 @@ var code=jQuery('.code');
     jQuery('.swiper-container').mouseleave(function(){
         sbs.hide()
     });
+    jQuery('#friend_ul li,#friend_ul div').addClass('clearfix');
  });

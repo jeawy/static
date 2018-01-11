@@ -1130,6 +1130,8 @@ div.p_pop{
 }
 .pns.mtn>button[type=button]{
 	background-color: #e5e5e5!important;
+	color:#333;
+	margin-left: 6px;
 }
 option:hover{
 	color: inherit;
@@ -1142,7 +1144,6 @@ p{
 	margin: 0px;
 }
 select.ps{
-	min-height: 36px;
 	outline: none;
 	border-width: 1px;
 	background-image: none;
@@ -1208,4 +1209,8 @@ span.jiathis_txt.jiathis_separator.jtico{
 }
 .f12{
 	font-size: 12px;
+}
+p.o.pns button.pn.pnc{
+	margin: 10px 6px 15px 0!important;
+	
 }
