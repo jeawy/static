@@ -1076,7 +1076,7 @@ margin: 10px 0 0 0;
 	margin: 15px auto;
 	padding: 0px;
 }
-.alert_btnleft a{
+.alert_c a{
 	display: inline-block;
 	padding: 2px 18px;
 	border-radius:4px;
@@ -1088,6 +1088,9 @@ margin: 10px 0 0 0;
 	color: #333;
 	text-align: center;
 	min-width: 110px;
+}
+p.alert_btnleft:link{
+	text-decoration: underline;
 }
 .nf-wrap{
 	margin-top: 30px;
