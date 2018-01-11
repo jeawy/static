@@ -103,19 +103,30 @@ nav a:active,nav a:hover,nav a:focus,nav a:visited{
     text-decoration:none;
     color: inherit;
 }
-.hide-menu{
-    position: absolute;
-    top:-310%;
-      left: 0.5px;
+.hide-menu, .hide-account-menu{
+    position: absolute; 
     z-index: 100;
     background-color: #fff;
     padding:5px 10px 10px;
     border-radius: 6px;
     border:1px solid #ccc;
     color: #333;
+    width: 125px;
+    text-align: center;
     display: none;
 }
-.hide-menu a{
+
+.hide-menu { 
+      top:-310%;
+      left: 0.5px; 
+}
+.hide-account-menu { 
+    right: 0.5px; 
+    
+    bottom:125%;
+}
+
+.hide-menu a, .hide-account-menu a{
     display: block;
     padding: 5px 0; 
     color: inherit;
@@ -128,7 +139,7 @@ nav a:active,nav a:hover,nav a:focus,nav a:visited{
 .forum-logo {
     background-color: rgb(181, 181, 181);
 }
-.hide-menu::after{
+.hide-menu::after, .hide-account-menu::after{
   content: '';
   border-left: 1px solid #ccc;
   border-bottom:1px solid #ccc; 

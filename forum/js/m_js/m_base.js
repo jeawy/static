@@ -3,6 +3,11 @@ jQuery('#forum').click(function(){
     jQuery('.hide-menu').toggle();
 })
 
+/* 底部菜单点击显示隐藏二级菜单 */
+jQuery('#account').click(function(){
+  jQuery('.hide-account-menu').toggle();
+})
+
 /* 回到顶部 */
 window.onload = function(){
     var oTop = document.getElementById("to_top");
