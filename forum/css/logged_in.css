@@ -85,13 +85,10 @@ li.bd-none{
 .msg_num {
     display: inline-block;
     background-color: rgb(234,80,20);
-    width: 15px;
-    height: 15px;
+    width: 8px;
+    height: 8px;
     border-radius: 50%;
-    font-size: 10px;
-    line-height: 15px;
-    text-align: center;
-    transform: translate(-40%, -50%);
+    transform: translate(-110%, -80%);
 }
 
 i {

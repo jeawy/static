@@ -47,10 +47,10 @@ var code=jQuery('.code');
     };
     jQuery(".posts-d:last").addClass("bd_none");
     var sbs=jQuery('.swiper-button-prev,.swiper-button-next');
-    jQuery('.swiper-wrapper，.swiper-button-prev,.swiper-button-next').mouseenter(function(){
+    jQuery('.swiper-container').mouseenter(function(){
         sbs.show()
     });
-    jQuery('.swiper-wrapper').mouseleave(function(){
+    jQuery('.swiper-container').mouseleave(function(){
         sbs.hide()
     });
  });
