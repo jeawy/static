@@ -115,12 +115,12 @@
 		letter-spacing: 6px;
 	}
 	.moderator{
-		padding:0px 10px 10px 0px;
+		padding-bottom: 6px;
 		color: #6c6c6c;
 	}
 	.moderator img{
-		width: 40px;
-		height: 40px;
+		width: 30px;
+		height: 30px;
 		border-radius: 50%;
 	}
 	.left_nav{
@@ -226,7 +226,7 @@
 		padding: 0px;
 	}
 	td.m_c{
-		padding:5px 15px 5px;
+		padding:0px 15px 5px;
 		box-shadow: 0 2px 10px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
 	}
 	.m_c .c{
@@ -273,7 +273,7 @@
 		margin: 10px 0 15px 0;
 		border-radius: 4px!important;
 		border: 0px;
-		background: rgb(234,80,20)!important;
+		background: rgb(234,80,20);
 		color: #fff;
 		text-align: center;
 		font-weight: 400;

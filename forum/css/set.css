@@ -115,3 +115,10 @@ border-bottom: 1px solid #eee;
 #friend_ul li,#friend_ul div{
     margin: 10px 0px;
 }
+td input.px,td select.ps{
+    min-height: 32px!important;
+}
+#tr_qq p a.xi2{
+    font-size: 12px;
+    color:#6c6c6c;
+}

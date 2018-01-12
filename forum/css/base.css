@@ -457,9 +457,10 @@ margin-top: 15px;
     line-height: 1.2;
 	border: 1px solid #ddd;
 	border-radius:4px;
+	width: 105px;
 }
 .all_caret{
-	margin-left:20px;
+	margin-left:15px;
 	}
 .search{
 	outline: none;
@@ -839,7 +840,7 @@ a#typeid_ctrl:focus{
 .ftid{
 	height: 36px;
 	padding: 8px 12px 4px;
-	min-width: 118px;
+	min-width: 130px;
 	border: 1px solid #ddd;
 	text-align: left;
 }
@@ -851,7 +852,7 @@ a#typeid_ctrl:focus{
 	padding: 0 20px 0 0;
 }
 #append_parent div#typeid_ctrl_menu{
-	min-width: 118px;
+	min-width: 130px;
     top: 100px!important;
     margin-left: -13px;
 }
@@ -1048,9 +1049,9 @@ line-height: 14px;
 .xi2, .xi2 a, .xi3 a{
 	color: inherit!important;
 }
-h3{
-	margin-top:30px;
-	margin-bottom: 5px; 
+h3.font_color{
+	margin-top: 30px;
+	margin-bottom:5px; 
 }
 #quick_sch_menu{
 	top: 26px!important;
@@ -1214,9 +1215,36 @@ span.jiathis_txt.jiathis_separator.jtico{
 	font-size: 12px;
 }
 p.o.pns button.pn.pnc{
-	margin: 10px 6px 15px 0!important;
-	
+	margin: 10px 0 15px 6px!important;
 }
 .tl .c-tb td,.tl .c-tb th{
 	padding: 10px 0!important;
+}
+#report_submit{
+	margin: 5px 0 15px!important;
+}
+button.bc-g{
+color: #333!important;
+background-color: #e5e5e5!important;
+}
+.chat_title{
+	font-size: 14px;
+	background-color: rgb(225, 225, 225);
+	padding: 10px 15px;
+}
+.chat_record{
+	padding: 6px 0;
+	margin: 0 15px;
+	border-bottom: 1px solid #ddd;
+	font-size: 12px;
+}
+
+#fwin_content_showMsgBox{
+	padding: 0px;
+}
+.close_c img{
+	width: 20px;
+}
+.close_c{
+	opacity: 1;
 }
