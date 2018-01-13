@@ -628,6 +628,7 @@ margin-left:5px;
  */
  .close{
 	 margin-left:8px !important;
+	 opacity:1!important;
  }
 
 .contact_us_title,.notice_title,div.frame-title{
@@ -1132,7 +1133,7 @@ border-width: 0px;
 div.p_pop{
 	visibility: visible!important;
 }
-.pns.mtn>button[type=button]{
+.pns.mtn>button[type=button],#fwin_dialog_cancel.pn{
 	background-color: #e5e5e5!important;
 	color:#333;
 	margin-left: 6px;
@@ -1275,4 +1276,10 @@ background-color: #e5e5e5!important;
 }
 .fwinmask table{
 	min-width: 250px;
+}
+#fwin_dialog .c.altw>.alert_info{
+	background-position: 34px 10px!important;
+}
+.theme>a{
+	 padding-right: 30px;
 }
