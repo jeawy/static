@@ -53,5 +53,24 @@ var code=jQuery('.code');
     jQuery('.swiper-container').mouseleave(function(){
         sbs.hide()
     });
+
+    /* 无回复去掉框 */
     jQuery('#friend_ul li,#friend_ul div').addClass('clearfix');
+    if(jQuery('.postreply').length<=1){
+        jQuery('.replay-top').css('display','none');
+        jQuery('.replay-top').parents('.pl.bm').css('border-bottom-width',0+'px');
+    }
+    
+   
  });
+ jQuery('#fastpostsubmit').click(function(){
+    if(jQuery('.postreply').length<=1){
+        jQuery('.replay-top').css('display','none');
+        jQuery('.replay-top').parents('.pl.bm').css('border-bottom-width',0+'px');
+    }else{
+        jQuery('.replay-top').css('display','block');
+        jQuery('.replay-top').parents('.pl.bm').css('border-bottom-width',1+'px');
+    }
+ }
+)
+jQuery('.p_opt.cl').addClass('clearfix');

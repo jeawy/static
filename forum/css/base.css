@@ -1248,3 +1248,35 @@ background-color: #e5e5e5!important;
 .close_c{
 	opacity: 1;
 }
+#at_list.p_pop{
+	margin: 0px!important;
+	width: 100%!important;
+}
+#e_image_menu.fwinmask{
+	max-width: 500px!important;
+}
+.p_opt>.notice.upnf{
+	margin-left: 0px;
+}
+#e_image_ctrl.tb.tb_s.cl{
+	margin-left: -15px;
+}
+#e_www .p_opt.popupfix{
+	padding-bottom: 10px;
+}
+.ml-u{
+	margin-left: 0px!important;
+}
+#e_url_menu input.px,.p_pof.upf input.px{
+	margin: 10px 0;
+	width: 100%!important;
+}.p_pof.upf{
+	padding:6px 10px;
+}
+.fwinmask table{
+	min-width: 250px;
+}
+.lgnore{
+	position: absolute;
+	width: 300px;
+}
