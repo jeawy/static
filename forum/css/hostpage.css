@@ -354,4 +354,6 @@
 	.xlda dd a{
 		color: #999 !important;
 	}
-	
+	.col-xs-3.right .input-group{
+		margin-bottom: 10px;
+	}
