@@ -120,6 +120,7 @@ padding-right:0px;
 .footer_nav a{
 	color:#fff;
 }
+
 .footer_bottom{
 	font-size:10px;
 }
@@ -418,6 +419,9 @@ ul.navbar-nav{
 	padding-top: 15px;
 	padding-bottom: 15px;
 	padding-right:0px;
+}
+.white{
+	color: #fff;
 }
 .c-g,.c-g:link{
 	color:rgb(234,80,20)!important;
