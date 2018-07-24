@@ -16,6 +16,10 @@
 .active-grye:link{
     color: #6c6c6c;
 }
+.emblem{
+    height:13px;
+    margin-right: 2px;
+}
 ul{
     margin: 0px;
     padding: 0px;

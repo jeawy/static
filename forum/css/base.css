@@ -17,6 +17,11 @@ a:hover{
 .container_custom{
 	margin-bottom:  15px;	
 }
+.emblem{
+    height: 14px;
+    vertical-align: sub;
+    margin-right: 2px;
+}
 .body, .navbar-fixed-top, .navbar-fixed-bottom{
 	min-width: 970px;
 }
